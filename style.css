@@ -1,0 +1,21 @@
+body {
+  background-image: url('images/bg.jpg');
+
+}
+
+#main {
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+  margin-top: 15em;
+}
+
+/*img {
+  width: 100%;
+}*/
+
+@media only screen and (min-width:1900px) { 
+  body {  background-repeat: no-repeat;
+  background-size: cover;} 
+}
