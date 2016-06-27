@@ -3,14 +3,16 @@ body {
 	text-align: center;
 }
 
+.navbar-search {
+	float: none;
+}
+
 .header {
 	font-size: 3em;
 	padding: 6%;
 }
 
 .container {
-	width: 40%;
-	margin: 0 auto;	
 }
 
 .brand {
@@ -21,7 +23,7 @@ body {
 
 #result-summary{margin-bottom:20px;}
 
-html { overflow-y: scroll; } /*force scrollbar*/
+html { overflow-y: scroll; } force scrollbar
 
 .facet, .chosen-facet {
     margin-bottom:20px; overflow: hidden; white-space: nowrap; 

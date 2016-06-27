@@ -17,23 +17,24 @@
     <div class="header">
       <a class="brand" href="#">Simple Questions</a>
     </div>
-
-    <div class="container">
+    
+    <!-- search -->
+    <center>
       <form class="navbar-search">
         <div id="search-div">
           <input type="text" class="search-query span8" placeholder="Search Simple Questions" onfocus="this.value = this.value;" id="solrstrap-searchbox" name="q">
         </div>
       </form>
+    </center>  
+      
 
     <!-- results -->
+    <center>
       <div class="row">
         <div id="solrstrap-facets" class="span4"></div>
         <div id="solrstrap-hits" class="span8"></div>
       </div>
-    </div>
-
-
-
+    </center>
 
     <!--Handlebars layout templates-->
     <script type="text/x-handlebars-template" id="hit-template">
