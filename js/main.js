@@ -34,7 +34,7 @@ var hsv2rgb = function(h,s,v) {
 };
 
 var randHue = Math.floor(Math.random() * (360 + 1));
-var displayRGB = hsv2rgb(randHue, 0.08, 0.8);
+var displayRGB = hsv2rgb(randHue, 0.05, 0.9);
 
 document.body.style.backgroundColor = displayRGB;
 
