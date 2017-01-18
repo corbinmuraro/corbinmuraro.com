@@ -1,40 +1,89 @@
-var hsv2rgb = function(h,s,v) {
-    var rgb, i, data = [];
-    if (s === 0) {
-        rgb = [v,v,v];
-    } 
-    else {
-        h = h / 60;
-        i = Math.floor(h);
-        data = [v*(1-s), v*(1-s*(h-i)), v*(1-s*(1-(h-i)))];
-        switch(i) {
-          case 0:
-            rgb = [v, data[2], data[0]];
-            break;
-          case 1:
-            rgb = [data[1], v, data[0]];
-            break;
-          case 2:
-            rgb = [data[0], v, data[2]];
-            break;
-          case 3:
-            rgb = [data[0], data[1], v];
-            break;
-          case 4:
-            rgb = [data[2], data[0], v];
-            break;
-          default:
-            rgb = [v, data[0], data[1]];
-            break;
+$(function() {
+    ajaxCall();
+});
+
+function ajaxCall() {
+    $.ajax({
+        type: 'GET',
+        url: 'http://ws.audioscrobbler.com/2.0/',
+        data: {
+            method: 'user.getrecenttracks',
+            user: 'corbinmuraro',
+            api_key: '1a0f06cdf3adf092204f7fc8a33b09a0',
+            format: 'json'
+        },
+        success: function(tracks) {
+            var trackObject = tracks.recenttracks.track[0];
+
+            var songURL = trackObject.url;
+            var recentArtist = trackObject.artist["#text"];
+            var recentSong = trackObject.name;
+
+            if (isPlaying(trackObject))
+            {
+                $('.song').css('display', 'inline-block');
+                $('.song a').text(recentSong + " — " + recentArtist);
+                $('.song a').attr("href", songURL);
+            }
+        }
+    });
+}
+
+// checks if a song is currently playing
+// RETURNS true if playing
+// RETURNS false if not playing
+function isPlaying(track)
+{
+    if(track.hasOwnProperty('@attr')) 
+    {
+        if(track['@attr'].hasOwnProperty('nowplaying')) 
+        {
+            if(track['@attr'].nowplaying == 'true') 
+            {
+                return true;
+            }
         }
     }
-    return '#' + rgb.map(function(x){ 
-        return ("0" + Math.round(x*255).toString(16)).slice(-2);
-    }).join('');
-};
+    else
+    {
+        return false;
+    }
+}
 
-var randHue = Math.floor(Math.random() * (360 + 1));
-var displayRGB = hsv2rgb(randHue, 0.05, 0.9);
 
-document.body.style.backgroundColor = displayRGB;
 
+// to be used on portfolio pages when talking about release date
+function timeDifference(current, previous) {
+
+    var msPerMinute = 60 * 1000;
+    var msPerHour = msPerMinute * 60;
+    var msPerDay = msPerHour * 24;
+    var msPerMonth = msPerDay * 30;
+    var msPerYear = msPerDay * 365;
+
+    var elapsed = current - previous;
+
+    if (elapsed < msPerMinute) {
+         return Math.round(elapsed/1000) + ' seconds ago';   
+    }
+
+    else if (elapsed < msPerHour) {
+         return Math.round(elapsed/msPerMinute) + ' minutes ago';   
+    }
+
+    else if (elapsed < msPerDay ) {
+         return Math.round(elapsed/msPerHour ) + ' hours ago';   
+    }
+
+    else if (elapsed < msPerMonth) {
+        return 'approximately ' + Math.round(elapsed/msPerDay) + ' days ago';   
+    }
+
+    else if (elapsed < msPerYear) {
+        return 'approximately ' + Math.round(elapsed/msPerMonth) + ' months ago';   
+    }
+
+    else {
+        return 'approximately ' + Math.round(elapsed/msPerYear ) + ' years ago';   
+    }
+}

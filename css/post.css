@@ -1,0 +1,185 @@
+@font-face {
+	font-family: ProximaNovaRegular;
+	src: url(../fonts/proxima-nova-regular.otf);
+}
+
+@font-face {
+	font-family: ProximaNovaSemibold;
+	src: url(../fonts/proxima-nova-semibold.otf);
+}
+
+@font-face {
+	font-family: ProximaNovaExtraboldItalic;
+	src: url(../fonts/proxima-nova-extrabold-italic.otf);
+}
+
+body {
+	background-color: #F3F4F9;
+	font-family: "ProximaNovaSemibold", Helvetica, Arial, sans-serif; 
+	padding: 0;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+    display: inline-block;
+}
+
+a:after {
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 50%;
+	z-index: -1;
+	background: #F7FFB1;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+a:hover:after {
+	top: 6px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+::selection {
+  background: #F7FFB1;
+}
+
+.header {
+	margin: 24px 40px 0;
+}
+
+.header ul {
+	margin: 0;
+	padding: 0;
+	line-height: 260%;
+}
+
+ul.links {
+	float: left;
+}
+
+ul.song {
+	float: right;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+}
+
+ul.links li {
+	margin-right: 40px;
+}
+
+.header a {
+	color: #222;
+}
+
+.header .song {
+	display: none;
+}
+
+.header .song a:before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 15px;
+	right: 0;
+	bottom: 0;
+	left: -20px;
+	background-image: url('../images/equalizer.gif');
+}
+
+.header .song a:after {
+	top: 12px;
+	right: 0;
+	bottom: 0;
+	left: -24px;
+}
+
+.header .song a:hover:after {
+	top: 6px;
+	right: 0;
+	bottom: 0;
+	left: -24px;
+}
+
+
+
+.main {
+	margin: 0 auto;
+	padding: 102px 96px 0 96px;
+	max-width: 620px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.main h1 {
+	display: inline-block;
+	position: relative;
+	font-family: ProximaNovaExtraboldItalic;
+	font-size: 40px;
+}
+
+.main h1:after {
+	content: "";
+	position: absolute;
+	top: 20px;	
+	right: 20px;
+	bottom: 0;
+	left: -20px;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	background: #F7FFB1;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media (max-width: 700px) {
+	ul.links li {
+		margin-right: 24px;
+	}
+}
