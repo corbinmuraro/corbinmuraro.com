@@ -13,9 +13,13 @@
 	src: url(../fonts/proxima-nova-extrabold-italic.otf);
 }
 
+::selection {
+  background: #F7FFB1;
+}
+
 body {
 	background-color: #F3F4F9;
-	font-family: "ProximaNovaSemibold", Helvetica, Arial, sans-serif; 
+	font-family: "ProximaNovaSemibold", 'HelveticaNeue', Helvetica, Arial, sans-serif; 
 	padding: 0;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
@@ -24,10 +28,13 @@ body {
 a {
 	text-decoration: none;
 	position: relative;
-    display: inline-block;
 }
 
-a:after {
+video {
+	opacity: 0.3;
+}
+
+.header a:after {
 	content: "";
 	position: absolute;
 	top: 12px;
@@ -43,15 +50,11 @@ a:after {
 	transition: all .2s ease-in-out;
 }
 
-a:hover:after {
+.header a:hover:after {
 	top: 6px;
 	right: 0;
 	bottom: 0;
 	left: 0;
-}
-
-::selection {
-  background: #F7FFB1;
 }
 
 .header {
@@ -68,11 +71,7 @@ ul.links {
 	float: left;
 }
 
-ul.song {
-	float: right;
-}
-
-li {
+.header li {
 	list-style-type: none;
 	float: left;
 }
@@ -82,6 +81,7 @@ ul.links li {
 }
 
 .header a {
+	display: inline-block;
 	color: #222;
 }
 
@@ -89,38 +89,9 @@ ul.links li {
 	display: none;
 }
 
-.header .song a:before {
-	content: "";
-	width: 10px;
-	height: 10px;
-	position: absolute;
-	top: 15px;
-	right: 0;
-	bottom: 0;
-	left: -20px;
-	background-image: url('../images/equalizer.gif');
-}
-
-.header .song a:after {
-	top: 12px;
-	right: 0;
-	bottom: 0;
-	left: -24px;
-}
-
-.header .song a:hover:after {
-	top: 6px;
-	right: 0;
-	bottom: 0;
-	left: -24px;
-}
-
-
-
 .main {
 	margin: 0 auto;
 	padding: 102px 96px 0 96px;
-	max-width: 620px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -128,14 +99,19 @@ ul.links li {
             animation: fadein 2s;
 }
 
-.main h1 {
-	display: inline-block;
+h1 a {
+	color: #000;
+}
+
+h1 {
+	max-width: 620px;
+	margin: 0 auto 40px;
 	position: relative;
 	font-family: ProximaNovaExtraboldItalic;
 	font-size: 40px;
 }
 
-.main h1:after {
+h1:after {
 	content: "";
 	position: absolute;
 	top: 20px;	
@@ -143,10 +119,75 @@ ul.links li {
 	bottom: 0;
 	left: -20px;
 	height: 100%;
-	width: 100%;
 	z-index: -1;
 	background: #F7FFB1;
 }
+
+h2 {
+	max-width: 620px;
+	margin: 48px auto 12px;
+	font-family: 'Open Sans', serif;
+	font-size: 26px;
+}
+
+h3 {
+	max-width: 620px;
+	margin: 16px auto 16px;
+	font-family: 'Open Sans', serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+p, ul {
+	max-width: 620px;	
+	margin: 0 auto;
+}
+
+.main p, .main ul {
+	font-size: 16px;
+	line-height: 32px;
+	font-family: 'Open Sans', serif;
+	margin-bottom: 28px;
+}
+
+.main p a, .main ul a {
+	color: #222;
+	background: #F4FFAB;
+}
+
+.critique img {
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 32px;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	    -ms-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
+}
+
+.critique img.magnify {
+	max-width: 420px;
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+}
+
+.critique img.magnified {
+	max-width: 90%;
+	cursor: -webkit-zoom-out;
+	cursor: -moz-zoom-out;
+}
+
+
+.mocks img {
+	max-width: 300px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 32px;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+}
+
 
 
 @keyframes fadein {
@@ -181,5 +222,15 @@ ul.links li {
 @media (max-width: 700px) {
 	ul.links li {
 		margin-right: 24px;
+	}
+	
+	.main {
+		padding: 56px 40px 0 40px;		
+	}
+}
+
+@media (max-width: 500px) {
+	img {
+		width: 80%;
 	}
 }

@@ -15,7 +15,7 @@ function ajaxCall() {
         success: function(tracks) {
             var trackObject = tracks.recenttracks.track[0];
 
-            var songURL = trackObject.url;
+            var url = "http://www.last.fm/user/corbinmuraro";
             var recentArtist = trackObject.artist["#text"];
             var recentSong = trackObject.name;
 
@@ -23,7 +23,7 @@ function ajaxCall() {
             {
                 $('.song').css('display', 'inline-block');
                 $('.song a').text(recentSong + " — " + recentArtist);
-                $('.song a').attr("href", songURL);
+                $('.song a').attr("href", url);
             }
         }
     });
@@ -50,24 +50,21 @@ function isPlaying(track)
     }
 }
 
-
-
 // to be used on portfolio pages when talking about release date
 function timeDifference(current, previous) {
-
     var msPerMinute = 60 * 1000;
+
     var msPerHour = msPerMinute * 60;
     var msPerDay = msPerHour * 24;
+    var msPer1Week = msPerDay * 7;
+    var msPer2Week = msPerDay * 14;
+    var msPer3Week = msPerDay * 21;
     var msPerMonth = msPerDay * 30;
     var msPerYear = msPerDay * 365;
 
     var elapsed = current - previous;
 
-    if (elapsed < msPerMinute) {
-         return Math.round(elapsed/1000) + ' seconds ago';   
-    }
-
-    else if (elapsed < msPerHour) {
+    if (elapsed < msPerHour) {
          return Math.round(elapsed/msPerMinute) + ' minutes ago';   
     }
 
@@ -75,15 +72,27 @@ function timeDifference(current, previous) {
          return Math.round(elapsed/msPerHour ) + ' hours ago';   
     }
 
+    else if (elapsed < msPer1Week ) {
+         return Math.round(elapsed/msPerDay ) + ' days ago';   
+    }
+
+    else if (elapsed < msPer2Week ) {
+         return '1 week ago';   
+    }
+
+    else if (elapsed < msPer3Week ) {
+         return 'two weeks ago';   
+    }
+
     else if (elapsed < msPerMonth) {
-        return 'approximately ' + Math.round(elapsed/msPerDay) + ' days ago';   
+        return 'three weeks ago';   
     }
 
     else if (elapsed < msPerYear) {
-        return 'approximately ' + Math.round(elapsed/msPerMonth) + ' months ago';   
+        return 'over a month ago';   
     }
 
     else {
-        return 'approximately ' + Math.round(elapsed/msPerYear ) + ' years ago';   
+        return 'over a year ago';   
     }
 }
