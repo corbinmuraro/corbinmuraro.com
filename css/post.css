@@ -109,6 +109,8 @@ h1 {
 	position: relative;
 	font-family: ProximaNovaExtraboldItalic;
 	font-size: 40px;
+	display: table;
+	width: auto;
 }
 
 h1:after {
@@ -187,6 +189,12 @@ p, ul {
 	margin-bottom: 32px;
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
 }
+
+.centered-image {
+	display: block;
+    margin: 0 auto;
+}
+
 
 
 
