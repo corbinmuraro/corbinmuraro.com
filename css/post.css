@@ -145,6 +145,11 @@ p, ul {
 	margin: 0 auto;
 }
 
+img {
+	display: block;
+	margin: 0 auto;
+}
+
 .main p, .main ul {
 	font-size: 16px;
 	line-height: 32px;
@@ -169,18 +174,17 @@ p, ul {
 	        transition: all 0.3s ease;
 }
 
-.critique img.magnify {
+img.magnify {
 	max-width: 420px;
 	cursor: -webkit-zoom-in;
 	cursor: -moz-zoom-in;
 }
 
-.critique img.magnified {
+img.magnified {
 	max-width: 90%;
 	cursor: -webkit-zoom-out;
 	cursor: -moz-zoom-out;
 }
-
 
 .mocks img {
 	max-width: 300px;
@@ -192,10 +196,15 @@ p, ul {
 
 .centered-image {
 	display: block;
-    margin: 0 auto;
+    margin: 48px auto 0;
+    width: 90%;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
 }
 
-
+.centered-image.small {
+	max-width: 400px;
+	margin: 0 auto;
+}
 
 
 @keyframes fadein {
