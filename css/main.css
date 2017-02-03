@@ -267,7 +267,7 @@ ul.links li {
 
 @media (max-width: 540px) {
 	.portfolio {
-		width: 150px;
+		width: 70%;
 	}
 
 	.portfolio a {
@@ -281,7 +281,7 @@ ul.links li {
 	}
 
 	.portfolio a {
-		margin: 0;
+		margin: 12px 0;
 	}
 
 }
