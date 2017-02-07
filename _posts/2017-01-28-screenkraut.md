@@ -5,7 +5,7 @@ title: "Corbin Muraro"
 
 # [Screenkraut](https://devpost.com/software/big-decision)
 
-I attended [PennApps XV](http://2017w.pennapps.com) last January and worked with 3 total strangers from around the world on an ultra-lightweight presentation webapp called Screenkraut. I was responsible for design and contributed to front-end development of the platform.
+I attended [PennApps XV](http://2017w.pennapps.com) last January and worked with 3 total strangers from around the world on an ultra-lightweight presentation webapp called Screenkraut. I was responsible for design and contributed to front-end development of the webapp.
 
 ## Background
 
@@ -21,9 +21,9 @@ Screenkraut's design centered around this idea of on-the-fly presentation buildi
 
 ### Navigation
 
-One of the core features of a presentation product is navigating between slides. In almost all products on the market (Google Slides, Keynote, Powerpoint, Prezi, etc.), navigation is accomplished through a list of thumbnails visible along an edge of the window. We determined that this sort of navigation pushes people away from what makes our product viable, and also loses some value when slides are all formatted in the same way (it's tough to see which slide is which). As an alternative, we built a carousel for slide navigation, while also incorportating slide creation into the same UI element.
+One of the core features of a presentation app is navigating between slides. In almost all products on the market (Google Slides, Keynote, Powerpoint, Prezi, etc.), navigation is accomplished through a list of thumbnails visible along an edge of the window. We determined that this sort of navigation pushes us away from what makes our product most appealing. Meanwhile, the thumbnails also provide some value when slides are all formatted in a similar way. 
 
-The previous and next slide are both visible to the sides of the focused slide. If no next page exists, moving forward creates a new slide and moves it into view. Clicking / tabbing / using the arrow keys are all ways to navigate between slides. Once a new slide enter the view, it is automatically selected. This allows for power users to create an entire presentation without leaving the keyboard, using tabs to navigate through the presentation.
+As an alternative to the thumbnail list, we built a carousel for slide navigation and slide creation. Both the previous and next slide are visible to the left and right sides of the focused slide. If no next page exists, moving forward creates a new slide and moves it into view. Clicking / tabbing / using the arrow keys are all ways to navigate between slides. Once a new slide enter the view, it is automatically selected. This allows for power users to create an entire presentation without leaving the keyboard, using tabs to navigate through the presentation.
 
 
 ### Slide Formatting
