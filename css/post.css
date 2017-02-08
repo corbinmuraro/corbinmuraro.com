@@ -31,7 +31,8 @@ a {
 }
 
 video {
-	opacity: 0.3;
+	display: block;
+	margin: 32px auto;
 }
 
 .header a:after, .footer:after {
@@ -207,6 +208,7 @@ img.magnified {
 }
 
 .footer-container {
+	margin-top: 80px;
 	text-align: center;
 	line-height: 260%;
 	font-size: 20px;
