@@ -120,7 +120,7 @@ ul.links li {
 
 .main {
 	margin: 0 auto;
-	padding: 102px 96px 56px 96px;
+	padding: 80px 96px 56px 96px;
 	max-width: 690px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -172,6 +172,7 @@ ul.links li {
 	font-size: 20px;
 	font-family: "ProximaNovaRegular";
 	line-height: 1.6em;
+	padding-top: 16px;
 }
 
 .main p a {
