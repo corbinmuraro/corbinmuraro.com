@@ -8,6 +8,12 @@
 	src: url(../fonts/proxima-nova-semibold.otf);
 }
 
+@font-face {
+	font-family: ProximaNovaExtraboldItalic;
+	src: url(../fonts/proxima-nova-extrabold-italic.otf);
+}
+
+
 body {
 	background-color: #F3F4F9;
 	font-family: "ProximaNovaSemibold", Helvetica, Arial, sans-serif; 
@@ -22,7 +28,7 @@ a {
     display: inline-block;
 }
 
-.header a:after, .main a:after{
+.header a:after, .main p a:after{
 	content: "";
 	position: absolute;
 	top: 12px;
@@ -38,7 +44,7 @@ a {
 	transition: all .2s ease-in-out;
 }
 
-.header a:hover:after, .main a:hover:after {
+.header p a:hover:after, .main p a:hover:after {
 	top: 6px;
 	right: 0;
 	bottom: 0;
@@ -125,7 +131,42 @@ ul.links li {
 
 .main h1 {
 	font-size: 32px;
+	font-family: "ProximaNovaExtraboldItalic";
+	margin: 0 auto 40px;
+	position: relative;
+	font-family: ProximaNovaExtraboldItalic;
+	font-size: 40px;
+	display: table;
+	width: auto;
 }
+
+.main h1:after {
+	content: "";
+	position: absolute;
+	top: 20px;	
+	right: 18px;
+	bottom: 0;
+	left: -18px;
+	height: 100%;
+	z-index: -1;
+	background: #F7FFB1;
+	-webkit-transition: all .5s ease-in-out;
+   	-moz-transition: all .5s ease-in-out;
+   	-o-transition: all .5s ease-in-out;
+   	transition: all .5s ease-in-out;
+}
+
+.main h1:hover:after {
+	top: 0;
+	left: -5px;
+	bottom: 0;
+	right: -2px;
+}
+
+.main h1 a {
+	color: #000;
+}
+
 
 .main p {
 	font-size: 20px;
@@ -133,11 +174,11 @@ ul.links li {
 	line-height: 1.6em;
 }
 
-.main a {
+.main p a {
 	color: #000;
 }
 
-.main a:after {
+.main p a:after {
 	top: 10px;
 	right: 0;
 	bottom: 0;
@@ -149,7 +190,7 @@ ul.links li {
    	transition: all .2s ease-in-out;
 }
 
-.main a:hover:after {
+.main p a:hover:after {
 	top: 4px;
 	right: 0;
 	bottom: 0;
@@ -161,6 +202,7 @@ ul.links li {
 .portfolio {
 	width: 690px;
 	margin: 0 auto;
+	margin-bottom: 40px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
