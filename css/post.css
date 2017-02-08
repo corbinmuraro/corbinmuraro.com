@@ -263,6 +263,10 @@ img.magnified {
 	.main {
 		padding: 56px 40px 0 40px;		
 	}
+
+	video {
+		width: 95%;
+	}
 }
 
 @media (max-width: 500px) {
