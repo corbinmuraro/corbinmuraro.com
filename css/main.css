@@ -156,12 +156,12 @@ ul.links li {
    	transition: all .5s ease-in-out;
 }
 
-.main h1:hover:after {
+/*.main h1:hover:after {
 	top: 0;
 	left: -5px;
 	bottom: 0;
 	right: -2px;
-}
+}*/
 
 .main h1 a {
 	color: #000;
