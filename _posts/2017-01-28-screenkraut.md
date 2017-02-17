@@ -9,7 +9,7 @@ I attended [PennApps XV](http://2017w.pennapps.com) last January and worked with
 
 ## Background
 
-Realizing that [Prezi](http://prezi.com) is still a Flash application ([I'm not kidding](https://prezi.com/support/article/troubleshooting/system-requirements-for-prezi/#highendusage)), our team decided to build a similar presentation editor and viewer around the fantastic Javascript framework [impress.js](https://github.com/impress/impress.js/), complete with flashy 3D transitions, lots of themes, etc. 
+Realizing that [Prezi](http://prezi.com) is still a Flash application ([I’m not kidding](https://prezi.com/support/article/troubleshooting/system-requirements-for-prezi/#highendusage)), our team decided to build a similar presentation editor and viewer around the fantastic Javascript framework [impress.js](https://github.com/impress/impress.js/), complete with flashy 3D transitions, lots of themes, etc. 
 
 However, after thinking deeper about where we can add value given the many presentation tools already available on the market, we decided to turn the project into a lightweight and synchronized presentation builder and presenter for on-the-fly presentations.
 
@@ -23,7 +23,7 @@ Before starting to build product, we brainstormed a list of adjectives and a lis
 ![sketches](images/screenkraut-images/screenkraut-sketch.jpeg){:class="magnify"}
 
 
-Screenkraut's design centered around this idea of on-the-fly presentation building, in which it takes as few clicks as possible to create a presentation and as little effort as possible to share a presentation. In the process of building a super simple product, we tried to remain cognizant of the use cases that we were eliminating, striking a balance between a simple product and a useful product.
+Screenkraut’s design centered around this idea of on-the-fly presentation building, in which it takes as few clicks as possible to create a presentation and as little effort as possible to share a presentation. In the process of building a super simple product, we tried to remain cognizant of the use cases that we were eliminating, striking a balance between a simple product and a useful product.
 
 ![presentation builder](images/screenkraut-images/screenkraut-main.png){:class="centered-image"}
 

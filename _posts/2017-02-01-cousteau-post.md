@@ -11,16 +11,16 @@ title: "Cousteau"
 
 ## Background
 
-I finished my Chinese coursework last spring, and was looking for a way to preserve my Chinese language skills. I didn't want to spend hours every weekend practicing, and didn't want to put down a lot of money on a program like Rosetta Stone. To solve this issue, I built Cousteau, a browser extension that replaces pieces of text with the translated equivalent, hence teaching a foreign language through reading immersion.
+I finished my Chinese coursework last spring, and was looking for a way to preserve my Chinese language skills. I didn’t want to spend hours every weekend practicing, and didn’t want to put down a lot of money on a program like Rosetta Stone. To solve this issue, I built Cousteau, a browser extension that replaces pieces of text with the translated equivalent, hence teaching a foreign language through reading immersion.
 
 ## Approach
 
-I started this project by thinking about the extension's core functionality — how users interact with Cousteau's translated text. I sketched out some potential interactions and began thinking about what sort of UI would be necessary to communicate any additional information.
+I started this project by thinking about the extension’s core functionality — how users interact with Cousteau’s translated text. I sketched out some potential interactions and began thinking about what sort of UI would be necessary to communicate any additional information.
 
-![cousteau early notes](images/cousteau-images/cousteau-notes1.jpeg){:class="centered-image"}
-![cousteau early notes](images/cousteau-images/cousteau-notes2.jpeg){:class="centered-image"}
+![cousteau early notes](images/cousteau-images/cousteau-notes1.jpeg){:class="magnify"}
+![cousteau early notes](images/cousteau-images/cousteau-notes2.jpeg){:class="magnify"}
 
-After building the extension's back-end and figuring out what sort of words to target for translation, there were three key user-facing design challenges that I realized I needed to tackle.
+After building the extension’s back-end and figuring out what sort of words to target for translation, there were three key user-facing design challenges that I realized I needed to tackle.
 
 ### The Extension Pop-Up
 
@@ -32,13 +32,13 @@ After several iterations on the pop-up page, I determined it would helpful for t
 
 ### Viewing Original Text
 
-Another big design problem I confronted was determining how translated text should be displayed on a website. I wanted the original text to be accessible, but didn't the interaction to view original text to interfere with the default site behavior. For example, an interaction such as clicking on the translation to see the original text may not work if the translated text is inside of a link. I also considered making the pop-up the only way to view original text, but I was concerned about this flow being too frustrating for the user. 
+Another big design problem I confronted was determining how translated text should be displayed on a website. I wanted the original text to be accessible, but didn’t the interaction to view original text to interfere with the default site behavior. For example, an interaction such as clicking on the translation to see the original text may not work if the translated text is inside of a link. I also considered making the pop-up the only way to view original text, but I was concerned about this flow being too frustrating for the user. 
 
-The solution that worked best was a hover to view the original text. This solution worked on nearly every website and wasn't too much of a burden on the user.
+The solution that worked best was a hover to view the original text. This solution worked on nearly every website and wasn’t too much of a burden on the user.
 
 <video loop="true" muted style="opacity: 0.3; margin: 80px auto;">
 	<source src="https://dl.dropboxusercontent.com/s/t2q0j8vdt4p1se3/cousteau-hover.mov?dl=0" type="video/mp4">
-	Your browser doesn't support embedded videos. 
+	Your browser doesn’t support embedded videos. 
 </video>
 
 ### Displaying Translated Text

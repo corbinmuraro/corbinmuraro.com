@@ -25,7 +25,6 @@ body {
 a {
 	text-decoration: none;
 	position: relative;
-    display: inline-block;
 }
 
 .header a:after, .main p a:after{
@@ -95,7 +94,7 @@ ul.links li {
 	width: 10px;
 	height: 10px;
 	position: absolute;
-	top: 15px;
+	top: 5px;
 	right: 0;
 	bottom: 0;
 	left: -20px;
@@ -150,10 +149,10 @@ ul.links li {
 	height: 100%;
 	z-index: -1;
 	background: #F7FFB1;
-	-webkit-transition: all .5s ease-in-out;
-   	-moz-transition: all .5s ease-in-out;
-   	-o-transition: all .5s ease-in-out;
-   	transition: all .5s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+   	-moz-transition: all .3s ease-in-out;
+   	-o-transition: all .3s ease-in-out;
+   	transition: all .3s ease-in-out;
 }
 
 .main h1:hover:after {
@@ -181,11 +180,11 @@ ul.links li {
 }
 
 .main p a:after {
-	top: 10px;
+	top: 14px;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	height: 70%;
+	height: 50%;
 	-webkit-transition: all .2s ease-in-out;
    	-moz-transition: all .2s ease-in-out;
    	-o-transition: all .2s ease-in-out;
@@ -193,7 +192,7 @@ ul.links li {
 }
 
 .main p a:hover:after {
-	top: 4px;
+	top: 6px;
 	right: 0;
 	bottom: 0;
 	left: 0;
