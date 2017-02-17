@@ -117,13 +117,24 @@ h1 {
 h1:after {
 	content: "";
 	position: absolute;
-	top: 20px;	
-	right: 20px;
-	bottom: 0;
-	left: -20px;
+	top: 2px;	
+	right: 0;
+	bottom: -2px;
+	left: 0;
 	height: 100%;
 	z-index: -1;
 	background: #F7FFB1;
+	-webkit-transition: all .5s ease-in-out;
+   	-moz-transition: all .5s ease-in-out;
+   	-o-transition: all .5s ease-in-out;
+   	transition: all .5s ease-in-out;
+}
+
+h1:hover:after {
+	top: -2px;	
+	right: 0;
+	bottom: 2px;
+	left: 0;	
 }
 
 h2 {
@@ -160,7 +171,8 @@ img {
 
 .main p a, .main ul a {
 	color: #222;
-	background: #F4FFAB;
+	line-height: 4px;
+	border-bottom: 4px solid #F7FFB1;
 }
 
 .critique img {
@@ -209,6 +221,7 @@ img.magnified {
 
 .footer-container {
 	margin-top: 80px;
+	margin-bottom: 8px;
 	text-align: center;
 	line-height: 260%;
 	font-size: 20px;
