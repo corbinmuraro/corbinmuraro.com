@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: portfolio
 title: "Corbin Muraro"
 ---
 
 # Nextdoor iOS Sign-Up Redesign
 
-What follows is my redesign of Nextdoor’s sign-up flow. I originally intended to redesign the app itself, but before I got through to the actual UI of the Nextdoor app, I noticed some things about the onboarding experience that could be improved, and consequently decided to focus my redesign there.
+What follows is my redesign of Nextdoor’s sign-up flow. I originally intended to redesign the app itself, but before I got through to the actual UI of the Nextdoor app, I noticed some things about the sign-up experience that could be improved, and consequently decided to focus my redesign there.
 
 ## Critique
 
@@ -14,7 +14,7 @@ As a first step, I ran through the current sign-up process a couple times and to
 <div class="critique">
 	{% for image in site.static_files %}
 	{% if image.path contains 'images/nextdoor-images/nextdoor-critique' %}
-	    <img src="{{site.baseurl}}{{image.path}}" class="magnify">
+	    <img src="{{site.baseurl}}{{image.path}}">
 	{% endif %}
 	{% endfor %}	
 </div>

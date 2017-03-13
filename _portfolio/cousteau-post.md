@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: "Cousteau"
 ---
 
@@ -17,8 +17,8 @@ I finished my Chinese coursework last spring, and was looking for a way to prese
 
 I started this project by thinking about the extension’s core functionality — how users interact with Cousteau’s translated text. I sketched out some potential interactions and began thinking about what sort of UI would be necessary to communicate any additional information.
 
-![cousteau early notes](images/cousteau-images/cousteau-notes1.jpeg){:class="magnify"}
-![cousteau early notes](images/cousteau-images/cousteau-notes2.jpeg){:class="magnify"}
+![cousteau early notes](images/cousteau-images/cousteau-notes1.jpeg){:class="centered-image"}
+![cousteau early notes](images/cousteau-images/cousteau-notes2.jpeg){:class="centered-image"}
 
 After building the extension’s back-end and figuring out what sort of words to target for translation, there were three key user-facing design challenges that I realized I needed to tackle.
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: "Simple Questions Search"
 ---
 
@@ -41,11 +41,11 @@ Given that the website requires a bit of context given its niche purpose, I deci
 
 One big issue with my MVP is that link text provided no value. Additionally, it wasn’t very clear where the link was directing to. I iterated through several solutions for link text and placement, trying to ensure that the outlink text provided some understanding of where the link was going, while also sitting higher than inline post links in the page’s visual hierarchy.
 
-![results experiment 1](images/sqs-images/results-experiment-1.png){:class="magnify"}
+![results experiment 1](images/sqs-images/results-experiment-1.png){:class="centered-image"}
 
-![results experiment 2](images/sqs-images/results-experiment-2.png){:class="magnify"}
+![results experiment 2](images/sqs-images/results-experiment-2.png){:class="centered-image"}
 
-![results experiment 3](images/sqs-images/results-experiment-3.png){:class="magnify"}
+![results experiment 3](images/sqs-images/results-experiment-3.png){:class="centered-image"}
 
 After talking through this issue with a friend, I realized that I was stubborn in not considering removing inline links altogether. Few users would want to jump straight from Simple Questions Search to a comment link, and this cleaned up the visual style of the website while also being more obvious in indicating what goes where.
 
