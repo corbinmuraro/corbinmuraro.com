@@ -1,22 +1,6 @@
-@font-face {
-	font-family: ProximaNovaRegular;
-	src: url(../fonts/proxima-nova-regular.otf);
-}
-
-@font-face {
-	font-family: ProximaNovaSemibold;
-	src: url(../fonts/proxima-nova-semibold.otf);
-}
-
-@font-face {
-	font-family: ProximaNovaExtraboldItalic;
-	src: url(../fonts/proxima-nova-extrabold-italic.otf);
-}
-
-
 body {
 	background-color: #F3F4F9;
-	font-family: "ProximaNovaSemibold", Helvetica, Arial, sans-serif; 
+	font-family: "Montserrat", Helvetica, Arial, sans-serif; 
 	padding: 0;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
@@ -36,7 +20,7 @@ a {
 	left: 0;
 	height: 50%;
 	z-index: -1;
-	background: #F7FFB1;
+	background: #F2FF89;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
@@ -51,12 +35,14 @@ a {
 }
 
 ::selection {
-  background: #F7FFB1;
+  background: #F2FF89;
 }
 
 .header {
 	margin: 24px 40px 0;
 	position: relative;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .header ul {
@@ -131,7 +117,7 @@ a {
 
 .main {
 	margin: 0 auto;
-	padding: 40px 96px 56px 96px;
+	padding: 64px 96px 56px 96px;
 	max-width: 690px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -146,9 +132,10 @@ a {
 }
 
 .main p {
-	font-size: 20px;
-	font-family: "ProximaNovaRegular";
-	line-height: 1.8em;
+	font-size: 18px;
+	font-family: "Montserrat"
+	font-weight: 400;
+	line-height: 2em;
 }
 
 .main p a {
@@ -204,7 +191,6 @@ a {
 }
 
 .item p {
-	font-family: ProximaNovaRegular;
 	font-size: 14px;
 	color: #222;
 	margin-top: 4px;
@@ -270,9 +256,15 @@ a {
 		display: none !important;
 	}
 
-	.name {
+	.links {
 		position: absolute;
 		right: 0;
+		left: auto;
+	}
+
+	.name {
+		position: absolute;
+		left: 0;
 	}
 
 	.main {

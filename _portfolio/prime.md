@@ -3,7 +3,7 @@ layout: portfolio
 title: "Prime Boxer Briefs"
 ---
 
-# [Prime Boxer Briefs](http://primeboxerbriefs.com)
+# Prime Boxer Briefs
 
 [Prime](http://primeboxerbriefs.com) is a sustainable boxer briefs company that is launching on Kickstarter this month. I was responsible for all design and development for the website.
 

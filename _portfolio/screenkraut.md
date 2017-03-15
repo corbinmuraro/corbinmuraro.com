@@ -3,7 +3,7 @@ layout: portfolio
 title: "Corbin Muraro"
 ---
 
-# [Screenkraut](https://devpost.com/software/big-decision)
+# Screenkraut
 
 I attended [PennApps XV](http://2017w.pennapps.com) last January and worked with 3 total strangers from around the world on an ultra-lightweight presentation webapp called Screenkraut. I was responsible for design and contributed to front-end development of the webapp.
 

@@ -3,7 +3,7 @@ layout: portfolio
 title: "Cousteau"
 ---
 
-# [Cousteau](http://corbinmuraro.com/cousteau)
+# Cousteau
 
 [Cousteau](http://corbinmuraro.com/cousteau) is a browser extension that helps users learn a foreign language while browsing the web. The current iteration translates select portions of text on every website a user visits. Stay tuned for a full product launch in the near future!
 

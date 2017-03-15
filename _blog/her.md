@@ -1,11 +1,21 @@
 ---
 layout: blog
-title: "Corbin Muraro"
+title: "Why Voice UI Isn‘t the Future"
 ---
 
-# The Future of Voice UI
+# Why Voice UI Isn‘t the Future
 
-I broke the display of my iPhone a few days ago, and for the past few days I have since been relying purely on Siri to interface with my phone. I thought it would be a miserable experience, and though it has often been clunky and inefficient, it has gotten me thinking about the future of UI. A purely voice-based interface (like that in [Her](https://en.wikipedia.org/wiki/Her_(film))) may be the right move and is perhaps the most natural next step from smartphones of the present.
+I broke the display of my iPhone a few days ago, and for the past few days I have since been relying solely on Siri to interface with my phone. What began as frustration inadvertently got me thinking about the future of UI and what role voice UI might play.
+
+## Background
+
+Film and TV has been thinking about the future of human-computer interaction for a long time. Starfleet computers from Star Trek extensively used voice UI.
+
+We're moving towards more and more abstraction:
+1. Tactile buttons that do as you expect (image of old landline)
+2. Physical input devices to do a variety of things (keyboard and mouse)
+3. Touchscreens (varying input to do a variety of things)
+4. Voice UI?
 
 ## Pros: 
 
@@ -36,7 +46,7 @@ Even if you're not in the mood to browse through content, **the lack of a displa
 
 In the short term, removing a screen removes the ability for a user to consume media content. While I found this restriction very liberating with a mindset similar to backers of the anti-tech dependence [Light Phone](https://www.kickstarter.com/projects/thelightphone/the-light-phone), losing media consumption capability is a big mark against a speech UI in 2017.
 
-When AR becomes viable and mainstream, the combination of a audio interface with 
+When AR becomes viable and mainstream, augmented reality's ability to display visual content could fill in these gaps.
 
 ### Nothing to click results in excessive waiting / frustration with results
 
