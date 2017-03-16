@@ -7,7 +7,7 @@ title: "Cousteau"
 
 [Cousteau](http://corbinmuraro.com/cousteau) is a browser extension that helps users learn a foreign language while browsing the web. The current iteration translates select portions of text on every website a user visits. Stay tuned for a full product launch in the near future!
 
-![cousteau screenshot](images/cousteau-images/cousteau-everything.png){:class="centered-image"}
+![cousteau screenshot](images/cousteau-images/cousteau-everything.png)
 
 ## Background
 
@@ -17,8 +17,8 @@ I finished my Chinese coursework last spring, and was looking for a way to prese
 
 I started this project by thinking about the extension’s core functionality — how users interact with Cousteau’s translated text. I sketched out some potential interactions and began thinking about what sort of UI would be necessary to communicate any additional information.
 
-![cousteau early notes](images/cousteau-images/cousteau-notes1.jpeg){:class="centered-image"}
-![cousteau early notes](images/cousteau-images/cousteau-notes2.jpeg){:class="centered-image"}
+![cousteau early notes](images/cousteau-images/cousteau-notes1.jpeg)
+![cousteau early notes](images/cousteau-images/cousteau-notes2.jpeg)
 
 After building the extension’s back-end and figuring out what sort of words to target for translation, there were three key user-facing design challenges that I realized I needed to tackle.
 
@@ -28,7 +28,7 @@ Chrome extensions provide developers with two places to display extension-relate
 
 After several iterations on the pop-up page, I determined it would helpful for the pop-up to display all pairs of words (the untranslated and the translated version), along with toggles to translate individual words on the page, or translate all words at once.
 
-![cousteau popup list](images/cousteau-images/cousteau-popup.png){:class="centered-image" style="width: auto;"}
+![cousteau popup list](images/cousteau-images/cousteau-popup.png){:style="width: auto;"}
 
 ### Viewing Original Text
 
@@ -36,7 +36,7 @@ Another big design problem I confronted was determining how translated text shou
 
 The solution that worked best was a hover to view the original text. This solution worked on nearly every website and wasn’t too much of a burden on the user.
 
-<video loop="true" muted style="opacity: 0.3; margin: 80px auto;">
+<video loop="true" muted style="opacity: 0.3">
 	<source src="https://dl.dropboxusercontent.com/s/t2q0j8vdt4p1se3/cousteau-hover.mov?dl=0" type="video/mp4">
 	Your browser doesn’t support embedded videos. 
 </video>

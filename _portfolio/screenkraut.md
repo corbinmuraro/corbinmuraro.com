@@ -5,7 +5,7 @@ title: "Corbin Muraro"
 
 # Screenkraut
 
-I attended [PennApps XV](http://2017w.pennapps.com) last January and worked with 3 total strangers from around the world on an ultra-lightweight presentation webapp called Screenkraut. I was responsible for design and contributed to front-end development of the webapp.
+I attended [PennApps XV](http://2017w.pennapps.com) last January and worked with 3 total strangers from around the world on an ultra-lightweight presentation webapp called Screenkraut. I was responsible for product design and also contributed to front-end development.
 
 ## Background
 
@@ -25,7 +25,7 @@ Before starting to build product, we brainstormed a list of adjectives and a lis
 
 Screenkraut’s design centered around this idea of on-the-fly presentation building, in which it takes as few clicks as possible to create a presentation and as little effort as possible to share a presentation. In the process of building a super simple product, we tried to remain cognizant of the use cases that we were eliminating, striking a balance between a simple product and a useful product.
 
-![presentation builder](images/screenkraut-images/screenkraut-main.png){:class="centered-image"}
+![presentation builder](images/screenkraut-images/screenkraut-main.png)
 
 ### Navigation
 
@@ -42,8 +42,8 @@ After looking into presentations for a variety of fields on [SlideShare](http://
 
 I built some mocks of the input fields, with headings that make clear what is being selected and what each field can be used for. Additionally, layout icons were added underneath the active slide to toggle between layouts.
 
-![editing slide description](images/screenkraut-images/screenkraut-edit-description.png){:class="centered-image"}
+![editing slide description](images/screenkraut-images/screenkraut-edit-description.png)
 
-![editing slide title](images/screenkraut-images/screenkraut-edit-title.png){:class="centered-image"}
+![editing slide title](images/screenkraut-images/screenkraut-edit-title.png)
 
 

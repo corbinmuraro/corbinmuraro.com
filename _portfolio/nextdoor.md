@@ -16,7 +16,7 @@ As a first step, I ran through the current sign-up process a couple times and to
 	{% if image.path contains 'images/nextdoor-images/nextdoor-critique' %}
 	    <img src="{{site.baseurl}}{{image.path}}">
 	{% endif %}
-	{% endfor %}	
+	{% endfor %}
 </div>
 
 
@@ -98,8 +98,6 @@ Pulling from public records, the "invite your spouse" page would adjust to fit t
     <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/91-InviteOthers.png">
     <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/92-Notifications.png">
 </div>
-
-Thanks for reading! 
 
 <!-- <video width="100%" height="600" muted="">
 	<source src="https://dl.dropboxusercontent.com/s/m32tq99odaqus9u/1-Landing.mov?dl=0" type="video/mp4">

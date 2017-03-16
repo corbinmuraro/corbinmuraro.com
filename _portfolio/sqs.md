@@ -7,7 +7,7 @@ title: "Simple Questions Search"
 
 [Simple Questions Search](http://sqs.corbinmuraro.com) started as a little personal project inspired by Kevin Rose’s mantra of [building for niche audiences](https://medium.com/@producthunt/kevin-rose-on-creating-stronger-startups-solving-world-problems-and-what-he-learned-at-digg-e5fffacd4314). In addition to providing value to a niche audience, the project helped me learn and improve on a variety of skills, from designing intuitive search interfaces to search indexing with [Solr](http://lucene.apache.org/solr/) to web hosting on [AWS](https://aws.amazon.com/ec2/).
 
-![search results](images/sqs-images/polished-full-results.png){:class="centered-image"}
+![search results](images/sqs-images/polished-full-results.png)
 
 ## Background
 
@@ -20,7 +20,7 @@ By reviving tens of thousands of bits of fashion advice, my goal was to make an 
 
 To determine if the website would even provide meaningful value beyond what’s available on reddit’s default search, I decided to build an MVP and see what sort of results Simple Questions threads would spit out. The project was intimidating from a coding perspective, as I had no previous experience building a search engine or even working with servers. Eventually, I got a prototype running with Solr used to index reddit post data and a super simple front-end built out of [Solrstrap](https://github.com/fergiemcdowall/solrstrap).
 
-![search results mvp](images/sqs-images/mvp.png){:class="centered-image"}
+![search results mvp](images/sqs-images/mvp.png)
 
 I explained what I built to some friends who regularly use MFA, and gave them the link to see if situations would ever come up for them in which the website would provide value. I also posted on a General Discussion thread on MFA for some casual first thoughts from people I didn’t know. 
 
@@ -35,21 +35,21 @@ With user feedback in hand, I discarded Solrstrap and rebuilt the front-end from
 
 Given that the website requires a bit of context given its niche purpose, I decided upon splitting the website into a landing page and a results page. This allotted me space to give new users the option to get their feet wet; instead of having to figure it out on their own, the landing page provides some understanding of where the content is coming from and what help the website hopes to provide.
 
-![landing page](images/sqs-images/polished-landing.png){:class="centered-image"}
+![landing page](images/sqs-images/polished-landing.png)
 
 ### One Step Back and Two Steps Forward
 
 One big issue with my MVP is that link text provided no value. Additionally, it wasn’t very clear where the link was directing to. I iterated through several solutions for link text and placement, trying to ensure that the outlink text provided some understanding of where the link was going, while also sitting higher than inline post links in the page’s visual hierarchy.
 
-![results experiment 1](images/sqs-images/results-experiment-1.png){:class="centered-image"}
+![results experiment 1](images/sqs-images/results-experiment-1.png)
 
-![results experiment 2](images/sqs-images/results-experiment-2.png){:class="centered-image"}
+![results experiment 2](images/sqs-images/results-experiment-2.png)
 
-![results experiment 3](images/sqs-images/results-experiment-3.png){:class="centered-image"}
+![results experiment 3](images/sqs-images/results-experiment-3.png)
 
 After talking through this issue with a friend, I realized that I was stubborn in not considering removing inline links altogether. Few users would want to jump straight from Simple Questions Search to a comment link, and this cleaned up the visual style of the website while also being more obvious in indicating what goes where.
 
-![results page](images/sqs-images/polished-results.png){:class="centered-image"}
+![results page](images/sqs-images/polished-results.png)
 
 
 ## Thinking Broadly About Reddit Search
