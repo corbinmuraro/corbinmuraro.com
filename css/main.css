@@ -43,6 +43,7 @@ a {
 	position: relative;
 	font-weight: 500;
 	font-size: 14px;
+	line-height: 16px;
 }
 
 .header ul {
@@ -73,7 +74,6 @@ a {
 	position: absolute;
 	right: 0;
 	white-space: nowrap;
-	overflow: hidden;
 	right: 0;
 	width: 40%;
 }
@@ -87,7 +87,7 @@ a {
 	width: 10px;
 	height: 10px;
 	position: absolute;
-	top: 6px;
+	top: 4px;
 	right: 0;
 	bottom: 0;
 	left: -20px;

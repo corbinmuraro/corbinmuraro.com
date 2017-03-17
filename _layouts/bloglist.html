@@ -1,0 +1,15 @@
+{% include head.html %}
+{% include header.html %}
+
+<div class="main">
+	{% for blog in site.blogs %}
+	<div class="row">
+		
+		<sub>{{ blog.date}}</sub>
+<!-- 		<a href="{{ post.url }}"><h3>{{ blog.title }}</h3></a>
+ -->
+	</div>
+	{% endfor %}
+</div>
+
+{% include footer.html %}

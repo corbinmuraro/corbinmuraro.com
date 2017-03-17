@@ -1,9 +1,10 @@
 ---
 layout: blog
-title: "2% VR"
+title: "Visualizing Mars in Three.JS"
+date: March 12, 2017
 ---
 
-# [Visualizing Mars in Three.JS](http://corbinmuraro.com/mars-terrain)
+# Visualizing Mars in Three.JS
 
 [Mars Maps](http://corbinmuraro.com/mars-terrain) is a concept website that I built as an example of how to better take advantage of NASA's terrain imagery captured through [HiRISE](http://www.uahirise.org), one of the instruments on board NASA's [Mars Reconnaissance Orbiter](https://en.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter). 
 
