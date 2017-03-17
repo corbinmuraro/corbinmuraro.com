@@ -128,7 +128,25 @@ a {
 
 /* BIG HEADER */
 .main h1 {
+	display: inline-block;
+	margin: 0;
 	font-size: 32px;
+	width: 32px;
+}
+
+.main h1:hover {
+    -webkit-animation: wave 0.7s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: wave 0.7s; /* Firefox < 16 */
+        -ms-animation: wave 0.7s; /* Internet Explorer */
+         -o-animation: wave 0.7s; /* Opera < 12.1 */
+            animation: wave 0.7s;
+}
+
+@keyframes wave {
+  0%   { transform: rotate(0deg); }
+  33% { transform: rotate(-20deg); }
+  66% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
 }
 
 .main p {
