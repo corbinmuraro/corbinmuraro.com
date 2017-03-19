@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Visualizing Mars in Three.JS"
-date: March 12, 2017
+date: 2017-3-12
 ---
 
 # Visualizing Mars in Three.JS

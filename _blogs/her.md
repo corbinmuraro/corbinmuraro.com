@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Why Voice UI Isn‘t the Future"
-date: February 23, 2017
+date: 2017-2-23
 ---
 
 # Why Voice UI Isn‘t the Future

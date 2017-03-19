@@ -2,9 +2,8 @@ markdown: kramdown
 collections:
   portfolio:
     output: true
-    permalink: /:title
-    
-  blog:
+    permalink: /portfolio/:title
+  blogs:
     output: true
     permalink: /blog/:title
 

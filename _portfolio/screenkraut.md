@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: "Corbin Muraro"
+title: "Screenkraut"
 ---
 
 # Screenkraut
@@ -17,15 +17,15 @@ However, after thinking deeper about where we can add value given the many prese
 
 Before starting to build product, we brainstormed a list of adjectives and a list of features that we determined as necessary in order to have a functioning and valuable final product 36 hours in the future. From this point, we sketched out a loose flow for how a user would interact with the product.
 
-![brainstorming](images/screenkraut-images/screenkraut-brainstorm.jpeg){:class="magnify"}
+![brainstorming]({{site.baseurl}}/images/screenkraut-images/screenkraut-brainstorm.jpeg){:class="magnify"}
 
 
-![sketches](images/screenkraut-images/screenkraut-sketch.jpeg){:class="magnify"}
+![sketches]({{site.baseurl}}/images/screenkraut-images/screenkraut-sketch.jpeg){:class="magnify"}
 
 
 Screenkraut’s design centered around this idea of on-the-fly presentation building, in which it takes as few clicks as possible to create a presentation and as little effort as possible to share a presentation. In the process of building a super simple product, we tried to remain cognizant of the use cases that we were eliminating, striking a balance between a simple product and a useful product.
 
-![presentation builder](images/screenkraut-images/screenkraut-main.png)
+![presentation builder]({{site.baseurl}}/images/screenkraut-images/screenkraut-main.png)
 
 ### Navigation
 
@@ -42,8 +42,8 @@ After looking into presentations for a variety of fields on [SlideShare](http://
 
 I built some mocks of the input fields, with headings that make clear what is being selected and what each field can be used for. Additionally, layout icons were added underneath the active slide to toggle between layouts.
 
-![editing slide description](images/screenkraut-images/screenkraut-edit-description.png)
+![editing slide description]({{site.baseurl}}/images/screenkraut-images/screenkraut-edit-description.png)
 
-![editing slide title](images/screenkraut-images/screenkraut-edit-title.png)
+![editing slide title]({{site.baseurl}}/images/screenkraut-images/screenkraut-edit-title.png)
 
 

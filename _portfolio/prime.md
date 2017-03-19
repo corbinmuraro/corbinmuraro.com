@@ -11,5 +11,5 @@ title: "Prime Boxer Briefs"
 
 The client requested a website for pre-launch of their Kickstarter campaign. The emphasis was on converting email sign ups, while also providing information about each facet of the brand. I was provided with many great product photos, and decided to make the photography a focus of the website.
 
-![page content](images/prime-images/prime-body.png)
-![email sign-up](images/prime-images/prime-signup.png)
+![page content]({{site.baseurl}}/images/prime-images/prime-body.png)
+![email sign-up]({{site.baseurl}}/images/prime-images/prime-signup.png)

@@ -1,0 +1,304 @@
+body {
+	background-color: #F3F4F9;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif; 
+	padding: 0;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+}
+
+.header a:after {
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 50%;
+	z-index: -1;
+	background: #f3ff99;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.header a:hover:after {
+	top: 6px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+::selection {
+  background: #f3ff99;
+}
+
+.header {
+	margin: 24px 40px 0;
+	position: relative;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+
+.header ul li {
+	list-style-type: none;
+}
+
+.header a {
+	color: #222;
+}
+
+.links {
+	position: absolute;
+	left: 0;
+}
+
+.links li {
+	margin-right: 40px;
+	float: left;
+}
+
+.song {
+	display: none;
+	position: absolute;
+	right: 0;
+	white-space: nowrap;
+	right: 0;
+	width: 40%;
+}
+
+.song a {
+	float: right;
+}
+
+.song a:before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 4px;
+	right: 0;
+	bottom: 0;
+	left: -20px;
+	background-image: url('../images/equalizer.gif');
+}
+
+.song a:after {
+	top: 12px;
+	right: 0;
+	bottom: 0;
+	left: -24px;
+	height: 50%;
+}
+
+.song a:hover:after {
+	top: 6px;
+	right: 0;
+	bottom: 0;
+	left: -24px;
+}
+
+.name {
+	text-align: center;
+}
+
+/* MAIN */
+
+.main {
+	margin: 0 auto;
+	padding: 64px 96px 56px 96px;
+	max-width: 690px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+/* BIG HEADER */
+.main h1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 32px;
+	width: 32px;
+}
+
+.main h1:hover {
+    animation: wave 0.7s;
+}
+
+.main p {
+	font-size: 18px;
+	font-family: "Montserrat"
+	font-weight: 400;
+	line-height: 1.75em;
+}
+
+.main p a {
+	color: #000;
+	box-shadow: inset 0 -0.01em #F3F4F9, inset 0 -0.5em #f3ff99;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.main p a:hover {
+	box-shadow: inset 0 -0.3em #F3F4F9, inset 0 -1em #f3ff99;
+}
+
+/*.main p a:hover {
+	animation: hover 0.2s;
+}*/
+
+
+/* PORTFOLIO */
+
+.portfolio {
+	width: 690px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+    animation: fadein 2s;
+}
+
+.portfolio a {
+	display: inline-block;
+	margin-bottom: 16px;
+	margin-right: 10px;
+}
+
+.portfolio a:nth-child(3n) {
+	margin-right: 0px;
+}
+
+.item img{
+	width: 220px;
+		box-shadow: 0 7px 15px 0 rgba(0,0,0,0.08);
+
+}
+
+.item p {
+	font-size: 14px;
+	color: #222;
+	margin-top: 4px;
+	text-align: center;
+}
+
+
+/* KEYFRAMES */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes hover {
+    from { 
+    	opacity: 0; 
+    }
+    to   { 
+    	opacity: 1; 
+    }
+}
+
+@keyframes wave {
+  0%   { transform: rotate(0deg); }
+  33% { transform: rotate(-20deg); }
+  66% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+	.portfolio {
+		width: 460px;
+	}
+	.portfolio a:nth-child(3n) {
+		margin-right: 10px;
+	}	
+	.portfolio a:nth-child(2n) {
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 700px) {
+	.header {
+		margin: 24px 32px 0;
+	}
+	
+	.links li {
+		margin-right: 24px;
+	}
+
+	.song {
+		display: none !important;
+	}
+
+	.links {
+		position: absolute;
+		right: 0;
+		left: auto;
+	}
+
+	.name {
+		position: absolute;
+		left: 0;
+	}
+
+	.main {
+		padding: 72px 32px 0 32px;
+	}
+
+	.main h1 {
+		font-size: 28px;
+	}
+
+	.main p {
+		font-size: 18px;
+	}
+	
+	.portfolio {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 540px) {
+	.portfolio {
+		width: 70%;
+	}
+
+	.portfolio a {
+		margin: none !important;
+	}
+
+	.portfolio img {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.portfolio a {
+		margin: 12px 0;
+	}
+}
+
+/* TODO: Dropdown to prevent clipping on mobile */
+@media (max-width: 500px) {
+	.links li {
+		display: none;
+	}
+}
+
+

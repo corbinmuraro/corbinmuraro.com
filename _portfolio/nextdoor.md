@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: "Corbin Muraro"
+title: "Nextdoor Redesign"
 ---
 
 # Nextdoor iOS Sign-Up Redesign
@@ -47,7 +47,7 @@ Adding a profile photo was out of place and unrelated to the rest of Nextdoor’
 Meanwhile, the invite neighbors page also seemed out of place, given that users were still in the process of signing up for Nextdoor, and were already being told to tell their friends about it. This prompt would make more sense for existing Nextdoor users who are downloading the app for the first time. Otherwise, moving this prompt to a notification or as an alert inside the app after a period of use might result in a better conversion rate, while also resulting in one less decision to make during the sign-up process.
 
 <div class="critique">
-	<img src="{{site.baseurl}}images/nextdoor-images/nextdoor-sketches/sketch-combined.jpg" class="magnify">
+	<img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-sketches/sketch-combined.jpg" class="magnify">
 </div>
 
 ## The New Flow
@@ -61,10 +61,10 @@ I dispersed information across multiple pages to make the forms more easily read
 The arrows on each page turn opaque when information has been inputted into the forms, and hence function as both a next button and input verification.
 
 <div class="mocks">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/1-Landing.png">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/2-LogIn.png">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/3-SignUp.png">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/4-Name.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/1-Landing.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/2-LogIn.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/3-SignUp.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/4-Name.png">
 </div>
 
 ### Address Input
@@ -74,9 +74,9 @@ As opposed to inputting an address and hoping that Nextdoor finds it valid on cl
 Additionally, unlike Nextdoor’s current flow, if the map indicates that the address isn’t yours, you can return to the prior page to make changes to the address and try again.
 
 <div class="mocks">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/5-Address.png">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/6-AddressResults.png">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/7-AddressMap.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/5-Address.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/6-AddressResults.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/7-AddressMap.png">
 </div>
 
 ### Address Validation
@@ -86,8 +86,8 @@ Instead of presenting the three validation options as equivalents (listing a cre
 The other two options remain available, but for most users, the alternative options don’t need to be explored to progress in the sign-up process.
 
 <div class="mocks">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/8-Validation.png">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/9-Validation2.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/8-Validation.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/9-Validation2.png">
 </div>
 
 ### CTAs
@@ -95,12 +95,6 @@ The other two options remain available, but for most users, the alternative opti
 Pulling from public records, the "invite your spouse" page would adjust to fit the user’s living situation. If the user lived alone, this page wouldn’t be included in the flow. If the user lived with roommates, it would provide input fields to invite each roommate. And if the user lived with a spouse, the below page would be displayed.
 
 <div class="mocks">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/91-InviteOthers.png">
-    <img src="{{site.baseurl}}images/nextdoor-images/nextdoor-mocks/92-Notifications.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/91-InviteOthers.png">
+    <img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-mocks/92-Notifications.png">
 </div>
-
-<!-- <video width="100%" height="600" muted="">
-	<source src="https://dl.dropboxusercontent.com/s/m32tq99odaqus9u/1-Landing.mov?dl=0" type="video/mp4">
-	Your browser doesn't support embedded videos. 
-</video>
- -->
