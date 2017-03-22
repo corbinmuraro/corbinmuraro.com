@@ -30,17 +30,17 @@ I was surprised by how prevalent Nextdoor is in both of my communities. Among my
 
 After running through the existing flow and noticing that Nextdoor’s user base is from a very wide demographic, there are two core issues that I wanted to focus the sign-up redesign around solving.
 
-### 1. The sign-up process takes a frustratingly long time to complete. 
+### 1. The Sign-Up Process Takes a Frustratingly Long Time to Complete. 
 You need to transfer codes between devices, say no to some prompts twice, and click through 11 screens *at minimum*.
 
-### 2. The sign-up process is confusing. 
+### 2. The Sign-Up Process is Confusing. 
 There are points in the flow where the user is unable to go back to the previous page to edit an incorrect input. There are other places in the flow where the user is left unsure, or a button directs somewhere unexpected. Particularly for the non-tech-savvy demographic, these problems can be annoying or even disabling.
 
 ## Redesigning the Flow
 
 The second half of the existing sign-up flow requires lots of clicks to get through. While frustrating for the user, it seems likely that many of these inconveniences are quite intentional. Some people will only opt to add profile photos or invite their friends when the option is strongly pushed on them.
 
-### Removing pages
+### Removing Pages
 
 Adding a profile photo was out of place and unrelated to the rest of Nextdoor’s sign-up flow, so I decided to move that page out of the flow. The importance of uploading a profile photo for the Nextdoor community could be emphasized via a hint when the user naturally explores their profile page in the app, or a profile photo could automatically be added if the user signs up using Facebook.
 
