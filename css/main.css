@@ -180,6 +180,9 @@ a:visited {
 	box-shadow: inset 0 -2em #f3ff99;
 }
 
+
+/* IMAGES */
+
 img.magnify {
 	cursor: -webkit-zoom-in;
 	cursor: -moz-zoom-in;
@@ -208,6 +211,50 @@ img.magnified {
 	max-width: 350px;
 	margin: 0 auto;
 }
+
+
+/* CODE SNIPPETS */
+
+.highlighter-rouge {
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+pre {
+	margin-top: 0;
+	white-space: normal;
+	line-height: 1.5em;
+}
+
+code {
+	display: inline;
+	font-size: 0.85em;
+	border: 1px solid #e8e8e8;
+	border-radius: 3px;
+	padding: 0.25em 0.5em;
+	background-color: #ffffff;
+	white-space: default;
+}
+
+.gist {
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+/* FOOTNOTES */
+.footnotes {
+	max-width: 620px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.footnotes p {
+	font-size: 12px;
+}
+
+
+
+/* FOOTER */
 
 .footer-container {
 	margin-top: 2.5em;
