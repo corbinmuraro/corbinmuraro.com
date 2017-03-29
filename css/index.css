@@ -292,7 +292,7 @@ a {
 
 /* TODO: Dropdown to prevent clipping on mobile */
 @media (max-width: 500px) {
-	.links li {
+	.links li:nth-child(2) {
 		display: none;
 	}
 }
