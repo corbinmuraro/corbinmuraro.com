@@ -343,4 +343,8 @@ code {
 	img {
 		width: 80%;
 	}
+	/* TODO: Dropdown to prevent clipping on mobile */
+	.links li:nth-child(2) {
+		display: none;
+	}
 }
