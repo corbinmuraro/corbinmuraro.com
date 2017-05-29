@@ -1,8 +1,8 @@
 $(function() {
-    ajaxCall();
+    getSong();
 });
 
-function ajaxCall() {
+function getSong() {
     $.ajax({
         type: 'GET',
         url: 'http://ws.audioscrobbler.com/2.0/',
@@ -19,11 +19,12 @@ function ajaxCall() {
             var recentArtist = trackObject.artist["#text"];
             var recentSong = trackObject.name;
 
+            $('.song a').text(recentSong + " — " + recentArtist);
+            $('.song a').attr("href", url);
+
             if (isPlaying(trackObject))
             {
-                $('.song').css('display', 'inline-block');
-                $('.song a').text(recentSong + " — " + recentArtist);
-                $('.song a').attr("href", url);
+                $('#icon').css('background-image', 'url(../images/equalizer.gif)');
             }
         }
     });
@@ -50,49 +51,49 @@ function isPlaying(track)
     }
 }
 
-// to be used on portfolio pages when talking about release date
-function timeDifference(current, previous) {
-    var msPerMinute = 60 * 1000;
+// // to be used on portfolio pages when talking about release date
+// function timeDifference(current, previous) {
+//     var msPerMinute = 60 * 1000;
 
-    var msPerHour = msPerMinute * 60;
-    var msPerDay = msPerHour * 24;
-    var msPer1Week = msPerDay * 7;
-    var msPer2Week = msPerDay * 14;
-    var msPer3Week = msPerDay * 21;
-    var msPerMonth = msPerDay * 30;
-    var msPerYear = msPerDay * 365;
+//     var msPerHour = msPerMinute * 60;
+//     var msPerDay = msPerHour * 24;
+//     var msPer1Week = msPerDay * 7;
+//     var msPer2Week = msPerDay * 14;
+//     var msPer3Week = msPerDay * 21;
+//     var msPerMonth = msPerDay * 30;
+//     var msPerYear = msPerDay * 365;
 
-    var elapsed = current - previous;
+//     var elapsed = current - previous;
 
-    if (elapsed < msPerHour) {
-         return Math.round(elapsed/msPerMinute) + ' minutes ago';   
-    }
+//     if (elapsed < msPerHour) {
+//          return Math.round(elapsed/msPerMinute) + ' minutes ago';   
+//     }
 
-    else if (elapsed < msPerDay ) {
-         return Math.round(elapsed/msPerHour ) + ' hours ago';   
-    }
+//     else if (elapsed < msPerDay ) {
+//          return Math.round(elapsed/msPerHour ) + ' hours ago';   
+//     }
 
-    else if (elapsed < msPer1Week ) {
-         return Math.round(elapsed/msPerDay ) + ' days ago';   
-    }
+//     else if (elapsed < msPer1Week ) {
+//          return Math.round(elapsed/msPerDay ) + ' days ago';   
+//     }
 
-    else if (elapsed < msPer2Week ) {
-         return '1 week ago';   
-    }
+//     else if (elapsed < msPer2Week ) {
+//          return '1 week ago';   
+//     }
 
-    else if (elapsed < msPer3Week ) {
-         return 'two weeks ago';   
-    }
+//     else if (elapsed < msPer3Week ) {
+//          return 'two weeks ago';   
+//     }
 
-    else if (elapsed < msPerMonth) {
-        return 'three weeks ago';   
-    }
+//     else if (elapsed < msPerMonth) {
+//         return 'three weeks ago';   
+//     }
 
-    else if (elapsed < msPerYear) {
-        return 'over a month ago';   
-    }
+//     else if (elapsed < msPerYear) {
+//         return 'over a month ago';   
+//     }
 
-    else {
-        return 'over a year ago';   
-    }
-}
+//     else {
+//         return 'over a year ago';   
+//     }
+// }

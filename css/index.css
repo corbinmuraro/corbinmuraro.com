@@ -70,28 +70,27 @@ a {
 }
 
 .song {
-	display: none;
+	display: inline-block;
 	position: absolute;
 	right: 0;
 	white-space: nowrap;
 	right: 0;
-	width: 40%;
 }
 
 .song a {
 	float: right;
 }
 
-.song a:before {
-	content: "";
+.song #icon {
+	float: right;
+	margin: 3px 6px;
 	width: 10px;
 	height: 10px;
-	position: absolute;
-	top: 4px;
-	right: 0;
-	bottom: 0;
-	left: -20px;
-	background-image: url('../images/equalizer.gif');
+	background-image: url('../images/equalizer-off.gif');
+}
+
+.song a:before {
+
 }
 
 .song a:after {
@@ -229,7 +228,7 @@ a {
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 	.header {
 		margin: 24px 32px 0;
 	}

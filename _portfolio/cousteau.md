@@ -37,7 +37,7 @@ Another big design problem I confronted was determining how translated text shou
 The solution that worked best was a hover to view the original text. This solution worked on nearly every website and wasn’t too much of a burden on the user.
 
 <video loop="true" muted style="opacity: 0.3">
-	<source src="https://dl.dropboxusercontent.com/s/t2q0j8vdt4p1se3/cousteau-hover.mov?dl=0" type="video/mp4">
+	<source src="{{site.baseurl}}/images/cousteau-images/cousteau-hover.mov" type="video/mp4">
 	Your browser doesn’t support embedded videos. 
 </video>
 
