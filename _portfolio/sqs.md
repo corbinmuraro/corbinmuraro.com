@@ -5,7 +5,7 @@ title: "Simple Questions Search"
 
 # Simple Questions Search
 
-[Simple Questions Search](http://sqs.corbinmuraro.com) started as a little personal project inspired by Kevin Rose’s mantra of [building for niche audiences](https://medium.com/@producthunt/kevin-rose-on-creating-stronger-startups-solving-world-problems-and-what-he-learned-at-digg-e5fffacd4314). In addition to providing value to a niche audience, the project helped me learn and improve on a variety of skills, from designing intuitive search interfaces to search indexing with [Solr](http://lucene.apache.org/solr/) to web hosting on [AWS](https://aws.amazon.com/ec2/).
+[Simple Questions Search](http://sqs.corbinmuraro.com) started as a little personal project inspired by Kevin Rose’s mantra of [building for niche audiences](https://medium.com/@producthunt/kevin-rose-on-creating-stronger-startups-solving-world-problems-and-what-he-learned-at-digg-e5fffacd4314). In addition to providing value to a niche audience, the project helped me learn and improve on a variety of skills, from designing intuitive search interfaces to designing search infrastructure with [Solr](http://lucene.apache.org/solr/) and [AWS](https://aws.amazon.com/ec2/).
 
 ![search results]({{site.baseurl}}/images/sqs-images/polished-full-results.png)
 

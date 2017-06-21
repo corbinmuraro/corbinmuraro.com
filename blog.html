@@ -36,7 +36,18 @@ permalink: /blog/
 	<!-- css -->
 	<link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet" type="text/css" />
+	
 	<style>
+		#blog {
+			float: right;
+			color: #C7C7C7;
+			margin-right: 32px;
+		}
+
+		#blog:hover {
+			color: #000;
+		}
+
 
 		.section-wrapper {
 			max-width: 620px;
@@ -57,12 +68,7 @@ permalink: /blog/
 
 		section a {
 			color: #000;
-			box-shadow: inset 0 0.5em #F3F4F9, inset 0 -0.5em #f3ff99;
-			transition: box-shadow 0.3s ease-in-out;
-		}
-
-		section a:hover {
-			box-shadow: inset 0 -0.3em #F3F4F9, inset 0 -1em #f3ff99;
+			background-color: #D6EAFF;
 		}
 
 
@@ -74,7 +80,6 @@ permalink: /blog/
 			font-style: oblique;
 			color: #666;
 		}
-
 	</style>
 
 	<!-- google analytics -->
@@ -88,6 +93,7 @@ permalink: /blog/
     </script>
 </head>
 <body>
+
 {% include header.html %}
 
 <div class="main">

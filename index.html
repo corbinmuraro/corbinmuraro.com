@@ -24,9 +24,6 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	
-	<!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
 
 	<!-- css -->
 	<link href="css/index.css" rel="stylesheet" type="text/css" />
@@ -42,77 +39,103 @@
     </script>
 </head>
 <body>
-	<div class="header">
-		<ul class="links">
-			<li><a href="/blog/">Blog</a></li>
-	<!-- 	<li><a href="CorbinMuraro.pdf#zoom=30" target="_blank">Résumé</a></li> -->			
-			<li><a href="mailto:corbinmuraro@gmail.com">Email</a></li>
-		</ul>
-		<ul class="song">
-			<li><a href=""></a><div id="icon"></div></li>
-		</ul>
-		<ul class="name">
-			<li><a href="/">Corbin Muraro</a></li>
-		</ul>
+	<div id="header">
+		<a id="logo" href="/">Corbin Muraro</a>
+		<div id="nav-container" tabindex="0">
+			<a id="nav-button" href="#">Portfolio</a>
+			<ul id="nav-menu">
+				<li><a href="/portfolio/festivalsupply">Festival Supply</a></li>
+				<li><a href="/portfolio/nextdoor">Nextdoor Case Study</a></li>
+				<li><a href="/portfolio/sqs">Simple Questions Search</a></li>
+				<li><a href="/portfolio/screenkraut">Screenkraut</a></li>
+				<li><a href="/portfolio/cousteau">Cousteau</a></li>
+				<li><a href="/portfolio/prime">Prime Boxer Briefs</a></li>
+				<li><a href="/portfolio/2percentvr">2% VR</a></li>
+			</ul>
+		</div>
+		<a id="contact" href="mailto:corbinmuraro@gmail.com">Email</a>
+		<a id="blog" href="/blog">Blog</a>
 	</div>
+	
+	<div id="wrapper">
+		<div id="about-wrapper">
+			<h1 id="about"><p>Designer. UCLA student. Creating solutions to help people.</p></h1>
+		</div>
 
-	<div class="main">
-		<h1>👋🏼</h1>
-		<p>I’m a product designer and cognitive science student at UCLA. I love to build things that help people. Most recently, I launched a <a href="http://sqs.corbinmuraro.com">website</a> that improves search on reddit. I’m also in UCLA's <a href="http://www.anderson.ucla.edu/centers/price-center-for-entrepreneurship-and-innovation/anderson-venture-accelerator">Anderson Venture Accelerator</a>, building a <a href="http://corbinmuraro.com/cousteau/">browser extension</a> that aims to change how we learn foreign languages.
-	</div>
-
-	<div class="portfolio">
-		<a href="/portfolio/nextdoor">
-			<div class="item">
-				<img src="images/nextdoor.png" alt="Nextdoor">
-				<p>Nextdoor Case Study</p>
+		<div id="portfolio">
+			<div id="festivalsupply" class="item-wrapper">
+				<div class="item">
+					<a href="/portfolio/festivalsupply">
+						<img src="images/festivalsupply.jpg" alt="festival supply">
+					</a>
+					<a href="/portfolio/festivalsupply">
+						<div class="description">
+							<div>Festival Supply</div>
+							<div>Design & Code, 2017</div>
+						</div>
+					</a>
+				</div>
 			</div>
-		</a>
-
-		<a href="/portfolio/sqs">
-			<div class="item">
-				<img src="images/sqs.png" alt="Simple Questions Search">
-				<p>Simple Questions Search</p>
+			<div id="sqs" class="item-wrapper">
+				<a class="item" href="/portfolio/sqs">
+					<img src="images/sqs.jpg" alt="Simple Questions Search">
+					<div class="description">
+						<div>Simple Questions Search</div>
+						<div>Design & Code, 2016</div>
+					</div>
+				</a>
 			</div>
-		</a>
-
-		<a href="/portfolio/festivalsupply">
-			<div class="item">
-				<img src="images/festivalsupply.png" alt="festival supply">
-				<p>Festival Supply</p>
+			<div id="nextdoor" class="item-wrapper">
+				<a class="item" href="/portfolio/nextdoor">
+					<img src="images/nextdoor.jpg" alt="Nextdoor">
+					<div class="description">
+						<div>Nextdoor Case Study</div>
+						<div>UX Design, 2016</div>
+					</div>
+				</a>
+			</div>		
+			<div id="screenkraut" class="item-wrapper auto-width">
+				<a class="item" href="/portfolio/screenkraut">
+					<img src="images/screenkraut.jpg" alt="Screenkraut">
+					<div class="description">
+						<div>Screenkraut</div>
+						<div>Product Design, 2017</div>
+					</div>
+				</a>
+			</div>		
+			<div id="prime" class="item-wrapper">
+				<a class="item" href="/portfolio/prime">
+					<img src="images/prime.jpg" alt="Prime Boxer Briefs">
+					<div class="description">
+						<div>Prime Boxer Briefs</div>
+						<div>Design & Code, 2016</div>
+					</div>
+				</a>
 			</div>
-		</a>
-
-		<a href="/portfolio/cousteau">
-			<div class="item">
-				<img src="images/cousteau.png" alt="Cousteau">
-				<p>Cousteau</p>
-			</div>
-		</a>
-
-		<a href="/portfolio/screenkraut">
-			<div class="item">
-				<img src="images/screenkraut.png" alt="Screenkraut">
-				<p>Screenkraut</p>
-			</div>
-		</a>
-
-		<a href="/portfolio/prime">
-			<div class="item">
-				<img src="images/prime.png" alt="Prime Boxer Briefs">
-				<p>Prime Boxer Briefs</p>
-			</div>
-		</a>
-
-		<a href="/portfolio/2percentvr">
-			<div class="item">
-				<img src="images/2percent.png" alt="2% VR">
-				<p>2% VR</p>
-			</div>
-		</a>
+		</div>
 	</div>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/music.js" type="text/javascript"></script>
+
+
+    <script>
+    	// var navButton = document.getElementById("nav-button");
+    	// var navContainer = document.getElementById("nav-container");
+    	// navButton.onclick = function() {
+	    // 	if (navContainer.className === "") {
+	    // 		navContainer.className = "open";
+	    // 	}
+	    // 	else {
+	    // 		navContainer.className = "";
+	    // 	}
+    	// };
+
+    	// document.body.onclick = function() {
+    	// 	if (navContainer.className === "open") {
+    	// 		navContainer.className = "";
+    	// 	}
+    	// }
+    </script>
 </body>
 </html>
