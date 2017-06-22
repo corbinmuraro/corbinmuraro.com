@@ -126,6 +126,7 @@ ul {
 /* MAIN */
 
 .main {
+	clear: both;
 	margin: 0 auto;
 	padding: 64px 96px 0 96px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -347,16 +348,6 @@ code {
 }
 
 @media (max-width: 600px) {
-	#about {
-		font-size: 48px;
-	}
-}
-
-@media (max-width: 500px) {
-	img {
-		width: 80%;
-	}
-
 	#header {
 		padding: 24px 16px;
 		line-height: 24px;
@@ -364,11 +355,11 @@ code {
 
 	#nav-container {
 		float: right;
-		width: 120px;
+		width: 160px;
 	}
 
 	#nav-button {
-		width: 120px;
+		width: 160px;
 	}
 
 	#nav-container:focus {
@@ -392,3 +383,25 @@ code {
 		display: none;
 	}
 }
+
+@media (max-width: 500px) {
+	img {
+		width: 80%;
+	}
+}
+
+@media (max-width: 400px) {
+	#nav-container {
+		width: 105px;
+	}
+
+	#nav-button {
+		width: 105px;
+	}
+
+	#nav-container:focus {
+		height: 400px;
+	}
+}
+
+

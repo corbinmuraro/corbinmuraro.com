@@ -119,12 +119,13 @@ ul {
 
 #wrapper {
 	max-width: 1300px;
-	margin: 0 auto 128px;
+	margin: 96px auto 128px;
+	clear: both;
 }
 
 	#about-wrapper {
 		width: 100%;
-		display: flex;
+		display: block;
 	}
 
 		#about {
@@ -203,13 +204,7 @@ ul {
 	#about {
 		font-size: 48px;
 	}
-}
 
-@media (max-width: 540px) {
-
-}
-
-@media (max-width: 500px) {
 	#header {
 		padding: 24px 16px;
 		line-height: 24px;
@@ -217,11 +212,11 @@ ul {
 
 	#nav-container {
 		float: right;
-		width: 120px;
+		width: 160px;
 	}
 
 	#nav-button {
-		width: 120px;
+		width: 160px;
 	}
 
 	#nav-container:focus {
@@ -243,6 +238,20 @@ ul {
 
 	#blog {
 		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	#nav-container {
+		width: 105px;
+	}
+
+	#nav-button {
+		width: 105px;
+	}
+
+	#nav-container:focus {
+		height: 400px;
 	}
 }
 
