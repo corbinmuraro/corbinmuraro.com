@@ -74,6 +74,6 @@ As a final step, I added a gradient skydome by following [Ian Webster's blog pos
 
 Without too much work, gdal and three.js have turned some real Mars data into a visualization that runs in a web browser. 
 
-The model that I built can be seen in the browser [here](http://corbinmuraro.com/mars-demo/terby.html). The code is also available on GitHub [here](https://github.com/corbinmuraro/mars-demo). Reach out on Twitter [@corbinmuraro](https://twitter.com/corbinmuraro) if you have any questions and I'll do my best to help you out!
+The model that I built can be seen in the browser [here](http://corbinmuraro.com/mars-demo/terby.html). My code available on GitHub [here](https://github.com/corbinmuraro/mars-demo). Reach out on Twitter [@corbinmuraro](https://twitter.com/corbinmuraro) if you have any questions and I'll do my best to help you out!
 
-[^1]: [Don Davis has a great (albeit terribly formatted) read](http://www.donaldedavis.com/PARTS/MARSCLRS.html) for those interested in what the colors on Mars actually are
+[^1]: [Don Davis has a great read](http://www.donaldedavis.com/PARTS/MARSCLRS.html) for those interested in what the colors on Mars actually are

@@ -11,7 +11,7 @@ What follows is my redesign of Nextdoor’s sign-up flow. I originally intended 
 
 As a first step, I ran through the current sign-up process a couple times and took notes on what could be improved on each page.
 
-<div class="critique">
+<div>
 	{% for image in site.static_files %}
 	{% if image.path contains 'images/nextdoor-images/nextdoor-critique' %}
 	    <img src="{{site.baseurl}}{{image.path}}">
@@ -46,7 +46,7 @@ Adding a profile photo was out of place and unrelated to the rest of Nextdoor’
 
 Meanwhile, the invite neighbors page also seemed out of place, given that users were still in the process of signing up for Nextdoor, and were already being told to tell their friends about it. This prompt would make more sense for existing Nextdoor users who are downloading the app for the first time. Otherwise, moving this prompt to a notification or as an alert inside the app after a period of use might result in a better conversion rate, while also resulting in one less decision to make during the sign-up process.
 
-<div class="critique">
+<div>
 	<img src="{{site.baseurl}}/images/nextdoor-images/nextdoor-sketches/sketch-combined.jpg" class="magnify">
 </div>
 

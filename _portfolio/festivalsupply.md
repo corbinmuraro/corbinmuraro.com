@@ -5,7 +5,7 @@ title: "Festival Supply"
 
 # Festival Supply
 
-[festival.supply](http://festival.supply) is a website that I designed and built to consolidate music festival information, helping people discover and browse music festival lineups.
+[http://festival.supply](http://festival.supply) is a website that I designed and built to consolidate music festival information, helping people discover and browse music festival lineups.
 
 ![polished website]({{site.baseurl}}/images/festivalsupply-images/festivalsupply-main.png)
 
