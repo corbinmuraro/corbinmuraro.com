@@ -138,9 +138,9 @@ ul {
 	}
 
 		#about {
-			font-size: 64px;
+			font-size: 80px;
 			margin: 72px 142px 0px;
-			max-width: 540px;
+			max-width: 700px;
 		}
 
 	#portfolio {
@@ -218,10 +218,6 @@ ul {
 }
 
 @media (max-width: 600px) {
-	#about {
-		font-size: 48px;
-	}
-
 	#header {
 		padding: 24px 16px;
 		line-height: 24px;
@@ -240,9 +236,13 @@ ul {
 		height: 360px;
 	}
 
+	#wrapper {
+		margin: 40px auto 64px;
+	}
+
 	#about {
-		font-size: 32px;
-		margin: 60px 40px 0px;
+		font-size: 52px;
+		margin: 16px 32px 0px;
 	}
 
 	#portfolio {
