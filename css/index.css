@@ -207,7 +207,7 @@ ul {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 880px) {
+@media (max-width: 950px) {
 	#about {
 		font-size: 64px;
 		margin: 60px 80px 0px;
@@ -282,6 +282,19 @@ ul {
 
 	#nav-container:focus {
 		height: 400px;
+	}
+}
+
+@media (max-width: 365px) {
+	#about {
+		font-size: 44px;
+	}
+}
+
+@media (hover: none) {
+		#portfolio .description:hover div {
+		border-bottom: 0;
+		padding-bottom: 1px;
 	}
 }
 

@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: "2% VR"
+htmltitle: "🥛 — Corbin Muraro"
 ---
 
 # 2% VR

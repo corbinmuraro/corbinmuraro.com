@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: "Prime Boxer Briefs"
+htmltitle: "👙 — Corbin Muraro"
 ---
 
 # Prime Boxer Briefs

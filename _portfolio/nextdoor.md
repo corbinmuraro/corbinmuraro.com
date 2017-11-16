@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: "Nextdoor Redesign"
+htmltitle: "🏠 — Corbin Muraro"
 ---
 
 # Nextdoor iOS Sign-Up Redesign

@@ -1,5 +1,6 @@
 ---
 layout: blog
+htmltitle: "🚀 — Corbin Muraro"
 title: "Visualizing Mars in Three.JS"
 date: 2017-3-28
 ---
