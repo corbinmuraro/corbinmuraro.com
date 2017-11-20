@@ -2,7 +2,7 @@
 layout: blog
 htmltitle: "🎨 — Corbin Muraro"
 title: "Making Art With Code"
-date: 2017-11-15
+date: 2017-11-20
 ---
 
 # Making Art With Code
