@@ -38,48 +38,62 @@ permalink: /blog/
 	<link href="{{site.baseurl}}/css/main.css" rel="stylesheet" type="text/css" />
 	
 	<style>
-		#blog {
-			float: right;
-			color: #C7C7C7;
-			margin-right: 32px;
+		#blog-title {
+			font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, sans-serif; 
+			font-weight: bold;
+			padding: 32px 40px;
+			line-height: 24px;
 		}
 
-		#blog:hover {
-			color: #000;
+		.blogs {
+			margin: 32px 0 24px;
 		}
-
 
 		.section-wrapper {
 			max-width: 620px;
 			margin: 0 auto;
 		}
 
+		.section-wrapper:not(:last-child) {
+			border-bottom: 0.5px solid #cacaca;
+		}
+
 		section {
+			width: 100%;
 			display: inline-block;
 			text-align: left;
-			font-family: "Lora", Georgia, serif;
+			font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, sans-serif; 
 			font-size: 1.125rem;
-			padding-bottom: 2rem;
+			padding: 2rem 0 2rem;
 		}
 
 		section .title {
 			padding-bottom: 0.5rem;
+			font-weight: 500;
 		}
 
 		section a {
 			color: #000;
-			background-color: #D6EAFF;
 		}
 
+		section a[data-visited] {
+			background: orange;
+		}
 
-		section a:visited {
+		section a[data-visited]:after {
+		  content: ' (Seen)';
+		}
+
+		section .description {
 			color: #666;
+			font-size: 1rem;
+			display: inline-block;
 		}
 
-		section .date {
-			font-style: oblique;
-			color: #666;
-		}
+			.date {
+				font-style: oblique;
+				display: inline-block;
+			}
 	</style>
 
 	<!-- google analytics -->
@@ -97,21 +111,22 @@ permalink: /blog/
 {% include header.html %}
 
 <div class="main">
-
-<h1>Blog</h1>
-
-<div class="blogs">
-{% assign blogs = site.blogs | sort: 'date' %}
-{% for blog in blogs reversed %}
-	<div class="section-wrapper">
-		<section>
-			<div class="title"><a href="{{ blog.url }}">{{ blog.title }}</a></div>
-			<div class="date">{{ blog.date | date_to_long_string }}</div>
-		</section>
+	<h1 id="blog-title">Blog</h1>
+	<div class="blogs">
+	{% assign blogs = site.blogs | sort: 'date' %}
+		{% for blog in blogs reversed %}
+			<div class="section-wrapper">
+				<section>
+					<a href="{{ blog.url }}">
+						<div class="title">{{ blog.title }}</div>
+						<div class="description">
+							<div class="date">{{ blog.date | date_to_long_string }}</div>
+						</div>
+					</a>
+				</section>
+			</div>
+		{% endfor %}
 	</div>
-{% endfor %}
-</div>
-
 </div>
 
 {% include footer.html %}
