@@ -67,33 +67,45 @@ permalink: /blog/
 			padding: 2rem 0 2rem;
 		}
 
-		section .title {
-			padding-bottom: 0.5rem;
-			font-weight: 500;
-		}
-
 		section a {
 			color: #000;
+			display: inline-block;
 		}
 
-		section a[data-visited] {
-			background: orange;
+		section a .title {
+			position: relative;
+			font-weight: 500;
+			background: #D6EAFF;
+			line-height: 2rem;
+			margin-bottom: 0.5rem;
+			padding: 0 10px 0;
 		}
 
-		section a[data-visited]:after {
-		  content: ' (Seen)';
+		section a[data-visited] .title {
+			background: #EDEDED;
+			padding: 0 40px 0 10px;
+		}
+
+		section a[data-visited] .title:after {
+			position: absolute;
+			font-family: "Helvetica Neue", "Helvetica", sans-serif;
+			content: '✓';
+			left: calc(100% - 26px);
+			bottom: 0px;
+			font-size: 0.875rem;
 		}
 
 		section .description {
 			color: #666;
 			font-size: 1rem;
 			display: inline-block;
+			padding: 0 0 0 10px;
 		}
 
-			.date {
-				font-style: oblique;
-				display: inline-block;
-			}
+		.date {
+			font-style: oblique;
+			display: inline-block;
+		}
 	</style>
 
 	<!-- google analytics -->
