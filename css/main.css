@@ -48,6 +48,7 @@ ul {
 			padding-bottom: 1px;
 			border-bottom: 1px solid #C7C7C7;
 			color: #C7C7C7;
+			transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 			font-weight: bold;
 		}
 
@@ -100,6 +101,7 @@ ul {
 			display: block;
 			padding: 2px 0;
 			color: #C7C7C7;
+			transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 		}
 
 		#nav-menu a:hover {
@@ -109,6 +111,7 @@ ul {
 	#contact {
 		float: right;
 		color: #C7C7C7;
+		transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 	#contact:hover {
@@ -118,6 +121,7 @@ ul {
 	#blog {
 		float: right;
 		color: #C7C7C7;
+		transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 		margin-right: 32px;
 	}
 
@@ -308,6 +312,7 @@ code {
 
 .footer-container a {
 	color: #C7C7C7;
+	transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-container a:hover {

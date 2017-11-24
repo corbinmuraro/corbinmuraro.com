@@ -12,10 +12,4 @@ window.addEventListener("load", () => {
     		navContainer.className = "";
     	}
 	};
-
-	// document.body.onclick = function() {
-	// 	if (navContainer.className === "open") {
-	// 		navContainer.className = "";
-	// 	}
-	// }
 });

@@ -46,6 +46,7 @@ ul {
 			padding-bottom: 1px;
 			border-bottom: 1px solid #C7C7C7;
 			color: #C7C7C7;
+			transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 			font-weight: bold;
 		}
 
@@ -98,17 +99,18 @@ ul {
 			display: block;
 			padding: 2px 0;
 			color: #C7C7C7;
+			transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 		}
 
 		#nav-menu a:hover {
 			color: #000;
+
 		}
-
-
 
 	#contact {
 		float: right;
 		color: #C7C7C7;
+		transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
 	#contact:hover {
@@ -118,6 +120,7 @@ ul {
 	#blog {
 		float: right;
 		color: #C7C7C7;
+		transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 		margin-right: 32px;
 	}
 
@@ -163,15 +166,16 @@ ul {
 		}
 
 		#portfolio .description div {
-			padding-bottom: 1px;
+			line-height: 1.25rem;
+			border-bottom: 1px solid #fff;
+			transition: border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 			display: inline-block;
 			float: left;
 			clear: left;
 		}
 
-		#portfolio .description:hover div {
+		#portfolio .item:hover .description div {
 			border-bottom: 1px solid #000;
-			padding-bottom: 0px;
 		}
 
 		#portfolio img {
