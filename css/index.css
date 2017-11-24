@@ -89,6 +89,9 @@ ul {
 			overflow: visible;
 		}
 
+		#nav-container.active #nav-menu {
+		}
+
 		#nav-menu li {
 			padding: 2px 0;
 			border-bottom: 1px solid #C7C7C7;
@@ -104,7 +107,6 @@ ul {
 
 		#nav-menu a:hover {
 			color: #000;
-
 		}
 
 	#contact {
@@ -166,7 +168,8 @@ ul {
 		}
 
 		#portfolio .description div {
-			line-height: 1.25rem;
+			margin-bottom: 0.125rem;
+			line-height: 1.375rem;
 			border-bottom: 1px solid #fff;
 			transition: border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 			display: inline-block;
@@ -240,6 +243,11 @@ ul {
 		line-height: 24px;
 	}
 
+	#about {
+		font-size: 44px;
+		margin: 64px 32px 0px;
+	}
+
 	#nav-container {
 		float: right;
 		width: 160px;
@@ -257,11 +265,6 @@ ul {
 		margin: 40px auto 64px;
 	}
 
-	#about {
-		font-size: 52px;
-		margin: 16px 32px 0px;
-	}
-
 	#portfolio {
 		margin: 60px 40px;
 	}
@@ -275,13 +278,18 @@ ul {
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+	#about {
+		margin-top: 64px;
+		font-size: 2rem;
+	}
+
 	#nav-container {
-		width: 105px;
+		width: 150px;
 	}
 
 	#nav-button {
-		width: 105px;
+		width: 150px;
 	}
 
 	#nav-container:focus {
@@ -289,16 +297,9 @@ ul {
 	}
 }
 
-@media (max-width: 365px) {
-	#about {
-		font-size: 44px;
-	}
-}
-
 @media (hover: none) {
-		#portfolio .description:hover div {
-		border-bottom: 0;
-		padding-bottom: 1px;
+	#portfolio .item:hover .description div {
+		border-bottom: 1px solid #fff;
 	}
 }
 
