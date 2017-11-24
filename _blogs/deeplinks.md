@@ -11,7 +11,7 @@ You're on your brand new iPhone X, reading a blog post that mentions a twitter r
 
 [Journalists](https://techcrunch.com/2015/06/12/a-brief-history-of-deep-linking/) [and](https://apsalar.com/2017/02/wtf-are-universal-links-and-why-should-you-care/) [UX](https://www.tune.com/blog/optimizing-user-experience-with-deferred-deep-linking/) [writers](https://www.uxmatters.com/mt/archives/2016/01/the-crucial-role-deep-linking-should-play-in-your-mobile-app.php) [seem](https://blog.markgrowth.com/deep-linking-what-is-it-why-does-your-app-need-it-and-how-to-use-it-fe45a957aa0f) [to](https://www.linkedin.com/pulse/we-examined-universal-links-across-hundreds-apps-data-austin-hay/) [think](https://www.sitepoint.com/ios-universal-links-for-a-seamless-app-user-experience/) [so](https://clearbridgemobile.com/7-benefits-of-mobile-app-deep-linking/). An implementation of deep linking called Universal Linking[^1] has been widely praised as a means to improve user experience. However, much of this praise is a result of only considering ideal use cases. Looking at how content is actually displayed and consumed on the web tells a different story. Three things are often overlooked when discussing UX implications of deep links:
 
-### 1. It's slow.
+### 1. They're slow.
 
 Not everyone has the latest and greatest iDevice. For many users, launching a native app is much slower than opening the link within the browser.
 
@@ -19,7 +19,7 @@ Not everyone has the latest and greatest iDevice. For many users, launching a na
 
 While hyperlinks usually provide a good idea of what you will be looking at via link text, users rarely know where a link is going until they click it. Compounding this with the fact that launching native apps is often slow on old devices results in a really frustrating user experience. Users don't know which links are going to pull them out of web browsing and make them wait for the native app to load.
 
-### 3. Web browsing isn't usually directed or goal-oriented.
+### 3. Web browsing often isn't directed or goal-oriented.
 
 Deep links disrupt a web browser's navigation UI. This isn't a big deal if the user wants to stay within the app that they were deep linked into, but for a user behavior like briefly reading a Facebook post before jumping back into an article, this inconsistency of UI is clumsy and inconvenient for the user.
 
