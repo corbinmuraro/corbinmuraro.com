@@ -177,7 +177,7 @@ ul {
 			clear: left;
 		}
 
-		#portfolio .item:hover .description div {
+		#portfolio .item:hover .description div:first-of-type {
 			border-bottom: 1px solid #000;
 		}
 
