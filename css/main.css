@@ -91,6 +91,9 @@ ul {
 			overflow: visible;
 		}
 
+		#nav-container.active #nav-menu {
+		}
+
 		#nav-menu li {
 			padding: 2px 0;
 			border-bottom: 1px solid #C7C7C7;
@@ -128,8 +131,6 @@ ul {
 	#blog:hover {
 		color: #000;
 	}
-
-
 
 
 
@@ -394,7 +395,7 @@ code {
 		width: 160px;
 	}
 
-	#nav-container:focus {
+	#nav-container.active {
 		height: 360px;
 	}
 
@@ -431,7 +432,7 @@ code {
 		width: 105px;
 	}
 
-	#nav-container:focus {
+	#nav-container.active {
 		height: 400px;
 	}
 }

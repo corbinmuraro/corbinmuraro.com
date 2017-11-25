@@ -177,8 +177,8 @@ ul {
 			clear: left;
 		}
 
-		#portfolio .item:hover .description div:first-of-type {
-			border-bottom: 1px solid #000;
+		#portfolio .item .description:hover div {
+			color: #888;
 		}
 
 		#portfolio img {
@@ -257,7 +257,7 @@ ul {
 		width: 160px;
 	}
 
-	#nav-container:focus {
+	#nav-container.active {
 		height: 360px;
 	}
 
@@ -292,7 +292,7 @@ ul {
 		width: 150px;
 	}
 
-	#nav-container:focus {
+	#nav-container.active {
 		height: 400px;
 	}
 }
