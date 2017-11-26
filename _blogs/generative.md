@@ -9,7 +9,7 @@ date: 2017-11-20
 
 ![generative sketch]({{site.baseurl}}/images/blog-images/generative-images/1.png)
 
-Three years ago, I learned about someone named [Casey Reas](https://en.wikipedia.org/wiki/C.E.B._Reas) who taught a course at UCLA in a programming language called Processing. It sounded super cool; a programming language that uses code to build art. Creative coding. The idea of using code to meld creativity and logic together got me really excited. Unfortunately, I didn't made it into the class and my lack of programming experience deterred me from trying to learn on my own.
+Three years ago, I learned about someone named [Casey Reas](https://en.wikipedia.org/wiki/C.E.B._Reas) who taught a course at UCLA in a programming language called Processing. It sounded super cool; a programming language that uses code to build art. Creative coding. The idea of using code to meld creativity and logic together got me really excited. Unfortunately, I didn't made it into the class and largely forgot about creative coding.
 
 ### Getting Serious
 
