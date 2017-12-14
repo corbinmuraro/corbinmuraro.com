@@ -6,7 +6,7 @@ htmltitle: "Samsara Design Challenge — Corbin Muraro"
 
 # Samsara Design Challenge
 
-For this challenge, I was tasked with building an interface to help people find dogs to adopt from local adoption centers. Start to finish, this project took me around six hours (apologies for getting a bit carried away).
+For this challenge, I was tasked with building an interface to help people find dogs to adopt from local adoption centers. Start to finish, this project took me around five hours (apologies for getting a bit carried away).
 
 ### Background / Research
 
