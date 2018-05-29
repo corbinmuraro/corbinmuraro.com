@@ -1,0 +1,9 @@
+.Guestbook {
+  display: flex column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.Guestbook-header {
+}

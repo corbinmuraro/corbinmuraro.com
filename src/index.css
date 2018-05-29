@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(~images/stars2.gif);
+}
+
+body::-webkit-scrollbar {
+  width: 21px;
+  height: 21px;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: url(images/ui/bg-scrollbar-track.png);
+  background-size: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: silver;
+  border-left: ridge 2px #fff;
+  border-top: ridge 2px #fff;
+  border-right: ridge 2px grey;
+  border-bottom: ridge 2px grey;
+}
+
+body::-webkit-scrollbar-button:vertical:end:increment,
+body::-webkit-scrollbar-button:vertical:start:decrement {
+  background-color: silver;
+  border-left: ridge 2px #fff;
+  border-top: ridge 2px #fff;
+  border-right: ridge 2px grey;
+  border-bottom: ridge 2px grey;
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+
+body::-webkit-scrollbar-button:vertical:end:increment {
+  background-image: url(images/ui/sprite-old-school-scroll.png);
+  background-position: 0 0;
+  width: 17px;
+  height: 18px;
+}
+
+body::-webkit-scrollbar-button:vertical:start:decrement {
+  background-image: url(images/ui/sprite-old-school-scroll.png);
+  background-position: -17px 0;
+  width: 17px;
+  height: 18px;
+}
