@@ -5,6 +5,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: serif;
+}
+
+.App a {
+  color: lightblue;
 }
 
 .App-header {

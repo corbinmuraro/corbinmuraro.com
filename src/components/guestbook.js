@@ -71,6 +71,7 @@ class Guestbook extends Component {
         <img
           className="Guestbook-header"
           src={require("images/guestbook.gif")}
+          border="0"
         />
         <form onSubmit={this.handleSubmit}>
           <input
