@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Neue Haas Unica";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Neue Haas Unica"),
+    url(./fonts/NeueHaasUnica-Regular.woff) format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  font: 1.125rem / 1.5 "Neue Haas Unica", system, -apple-system,
+    ".SFNSText-Regular", "San Francisco", "Helvetica Neue", "Roboto", "Segoe UI",
+    "Lucida Grande", "Helvetica", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+code {
+  font: inherit;
+  /* font: 0.9rem "Menlo", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono",
+    "Source Code Pro", monospace; */
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+  padding: 1px 4px;
+}
+
+code:before,
+code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+::selection {
+  text-shadow: none;
+  background: #ffff6e;
+}
