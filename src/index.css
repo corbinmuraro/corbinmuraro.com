@@ -19,8 +19,6 @@ body {
 
 code {
   font: inherit;
-  /* font: 0.9rem "Menlo", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono",
-    "Source Code Pro", monospace; */
   background-color: rgba(0, 0, 0, 0.04);
   border-radius: 3px;
   padding: 1px 4px;
@@ -33,6 +31,5 @@ code:after {
 }
 
 ::selection {
-  text-shadow: none;
   background: #ffff6e;
 }
