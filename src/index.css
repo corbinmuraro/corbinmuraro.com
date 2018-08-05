@@ -32,4 +32,7 @@ code:after {
 
 ::selection {
   background: #ffff6e;
+  text-shadow: none;
+  text-shadow: -1px -1px 0 #ffff6e, 1px -1px 0 #ffff6e, -1px 1px 0 #ffff6e,
+    1px 1px 0 #ffff6e;
 }

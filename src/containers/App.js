@@ -10,18 +10,13 @@ class App extends Component {
           passion for design and technology.
         </p>
         <p>
-          I currently work at{" "}
-          <a className="custom" href="https://samsara.com">
-            Samsara
-          </a>{" "}
-          building tools for the world of infrastructure.
+          I currently work at <a href="https://samsara.com">Samsara</a> building
+          tools for the world of infrastructure.
         </p>
         <p>
           You can find me under the handle <code>corbinmuraro</code> across the
           web. I can also be reached via email at{" "}
-          <a className="custom" href="mailto:corbinmuraro@gmail.com">
-            corbinmuraro@gmail.com
-          </a>.
+          <a href="mailto:corbinmuraro@gmail.com">corbinmuraro@gmail.com</a>.
         </p>
       </div>
     );
