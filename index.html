@@ -1,32 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffc40d">
-    <meta name="theme-color" content="#ffffff">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
     <script>
-        !function (e, a, t, n, g, c, o) { e.GoogleAnalyticsObject = g, e.ga = e.ga || function () { (e.ga.q = e.ga.q || []).push(arguments) }, e.ga.l = 1 * new Date, c = a.createElement(t), o = a.getElementsByTagName(t)[0], c.async = 1, c.src = "https://www.google-analytics.com/analytics.js", o.parentNode.insertBefore(c, o) }(window, document, "script", 0, "ga"), ga("create", "UA-80247844-1", "auto"), ga("send", "pageview")
+      !(function (e, a, t, n, g, c, o) {
+        (e.GoogleAnalyticsObject = g),
+          (e.ga =
+            e.ga ||
+            function () {
+              (e.ga.q = e.ga.q || []).push(arguments);
+            }),
+          (e.ga.l = 1 * new Date()),
+          (c = a.createElement(t)),
+          (o = a.getElementsByTagName(t)[0]),
+          (c.async = 1),
+          (c.src = "https://www.google-analytics.com/analytics.js"),
+          o.parentNode.insertBefore(c, o);
+      })(window, document, "script", 0, "ga"),
+        ga("create", "UA-80247844-1", "auto"),
+        ga("send", "pageview");
     </script>
     <title>Corbin Muraro</title>
-    <link href="main.css" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="styles/whyte.css" type="text/css" />
+    <link rel="stylesheet" href="styles/base.css" type="text/css" />
+  </head>
 
-<body>
-    <div>
-        <p>Hello. My name is Corbin Muraro. I’m a software designer with a passion for design and technology.</p>
-        <p>I currently work at <a href="https://samsara.com">Samsara</a> building tools for the world of infrastructure.</p>
-        <p>You can find me under the handle <code>corbinmuraro</code> across the web. I can also be reached via email at <a
-                href="mailto:corbinmuraro@gmail.com">corbinmuraro@gmail.com</a>.</p>
+  <body>
+    <div class="heading">
+      <span>Corbin Muraro</span>
+      <a href="mailto:corbinmuraro@gmail.com">corbinmuraro@gmail.com</a>
+      <a href="mailto:corbinmuraro@gmail.com">Email</a>
     </div>
-</body>
 
+    <div class="section-container">
+      <div class="section">
+        <div class="project-info">
+          <h3>Samsara Fleet — Samsara, 2019</h3>
+          <p>
+            Bringing the core Samsara dashboard experience to a native mobile
+            app.
+          </p>
+          <a
+            href="https://www.samsara.com/blog/now-available-the-samsara-fleet-mobile-app"
+            >Press -></a
+          >
+        </div>
+        <div class="mobile-container">
+          <div><img src="images/fleet1.png" /></div>
+          <div><img src="images/fleet2.png" /></div>
+          <div><img src="images/fleet3.png" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-container">
+      <div class="section">
+        <div class="project-info">
+          <h3>Slingshow — Freelance, 2020</h3>
+          <p>A virtual events platform designed for 2020.</p>
+          <a href="https://slingshow.co">Website -></a>
+        </div>
+        <div class="web-container">
+          <div><img src="images/slingshow.png" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-container">
+      <div class="section">
+        <div class="project-info">
+          <h3>Workflow Builder — Samsara, 2020</h3>
+          <p>
+            Enabling fleet managers to customize their drivers’ daily workflow.
+          </p>
+        </div>
+        <div class="web-container">
+          <div><img src="images/workflow.png" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-container">
+      <div class="section">
+        <div class="project-info">
+          <h3>Offline Mode — Samsara, 2020</h3>
+          <p>Communicating internet connectivity status to truckers.</p>
+        </div>
+        <div class="mobile-container">
+          <div><img src="images/offline1.png" /></div>
+          <div><img src="images/offline2.png" /></div>
+          <div><img src="images/offline3.png" /></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
