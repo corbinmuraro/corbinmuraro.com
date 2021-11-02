@@ -157,9 +157,10 @@ a:hover {
 }
 
 .section a {
-  display: block;
+  display: inline-block;
   padding-top: calc(var(--unit) * 3);
   line-height: 32px;
+  margin-right: calc(var(--unit) * 2);
 }
 
 .web-container,
